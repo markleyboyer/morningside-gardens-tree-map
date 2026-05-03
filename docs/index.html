@@ -87,7 +87,9 @@
         <tr>
           <th>Quadrant</th>
           <th>Tree Name</th>
-          <th>Botanical Name / DBH / Planted</th>
+          <th>Botanical</th>
+          <th>DBH</th>
+          <th>Planted</th>
         </tr>
       </thead>
       <tbody id="list"></tbody>
@@ -134,6 +136,7 @@
   }
 
   const markersById = {};
+  const labelMarkersById = {};
   const popupMarkerLayer = L.layerGroup(); // Hidden, only for popup binding
   const labelLayer = L.layerGroup().addTo(map);
 
@@ -169,7 +172,25 @@
     });
 
     markersById[t.id] = popupMarker;
+    labelMarkersById[t.id] = { marker: label, dbh: parseFloat(t.dba_2020) || 0 };
   });
+
+  // Update label visibility on zoom
+  map.on('zoomend', function() {
+    const zoom = map.getZoom();
+    const minDBH = zoom === -2 ? 20 : (zoom === -1 ? 15 : (zoom === 0 ? 10 : 0));
+
+    Object.entries(labelMarkersById).forEach(([id, data]) => {
+      if (data.dbh >= minDBH || zoom >= 1) {
+        labelLayer.addLayer(data.marker);
+      } else {
+        labelLayer.removeLayer(data.marker);
+      }
+    });
+  });
+
+  // Initial zoom filtering
+  map.fire('zoomend');
 
   // Sidebar: stats + list
   const withPos = trees.filter(t => t.x != null).length;
@@ -184,32 +205,51 @@
   function render() {
     const q = qEl.value.trim().toLowerCase();
     const quad = quadEl.value;
+    const currentZoom = map.getZoom();
+
     const items = trees.filter(t => {
       if (quad && !t.id.startsWith(quad)) return false;
       if (q) {
         const hay = `${t.id} ${t.common_name} ${t.botanical_name}`.toLowerCase();
         if (!hay.includes(q)) return false;
       }
+
+      // Filter by zoom level based on DBH
+      // At zoom -2: only show trees with DBH >= 20
+      // At zoom -1: only show trees with DBH >= 15
+      // At zoom 0: only show trees with DBH >= 10
+      // At zoom 1+: show all trees
+      if (currentZoom < 1 && t.dba_2020) {
+        const dbh = parseFloat(t.dba_2020);
+        const minDBH = currentZoom === -2 ? 20 : (currentZoom === -1 ? 15 : 10);
+        if (isNaN(dbh) || dbh < minDBH) return false;
+      }
+
       return true;
     });
+
     listEl.innerHTML = items.slice(0, 400).map(t => {
-      const quad = t.id.split('-')[0];
+      const quadrant = t.id.split('-')[0];
       const cn = t.trefle_common || t.common_name || '<span style="color:#999">unknown</span>';
-      const dbh = t.dba_2020 ? `DBH: ${t.dba_2020}"` : '';
-      const planted = t.planted ? `Planted: ${t.planted}` : '';
-      const meta = [t.botanical_name, dbh, planted].filter(Boolean).join(' • ');
+      const bot = t.botanical_name || '—';
+      const dbh = t.dba_2020 ? `${t.dba_2020}"` : '—';
+      const planted = t.planted || '—';
       const noPos = t.x == null ? ' <span style="color:#b8801a">(no map pos)</span>' : '';
       return `<tr data-id="${t.id}">
-        <td class="id">${quad}</td>
+        <td class="id">${quadrant}</td>
         <td class="name">${cn}</td>
-        <td><div class="botanical">${meta}</div>${noPos}</td>
-      </tr>`;
+        <td class="botanical" style="font-size:11px;color:#666;font-style:italic">${bot}</td>
+        <td class="meta">${dbh}</td>
+        <td class="meta">${planted}</td>
+      </tr>${noPos ? `<tr><td colspan="5" style="padding:0;font-size:11px;color:#b8801a">${noPos}</td></tr>` : ''}`;
     }).join('');
   }
   render();
 
   qEl.addEventListener('input', render);
   quadEl.addEventListener('change', render);
+  map.on('zoomend', render);
+
   listEl.addEventListener('click', e => {
     const row = e.target.closest('tr');
     if (!row) return;
