@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Morningside Gardens Tree Map</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"/>
+<style>
+  html, body { margin: 0; padding: 0; height: 100%; font-family: system-ui, -apple-system, "Segoe UI", sans-serif; }
+  #app { display: flex; height: 100vh; }
+  #map { flex: 1; background: #f4f1ea; }
+  #sidebar {
+    width: 320px; border-left: 1px solid #d8d4c8; background: #fafaf6;
+    overflow-y: auto; padding: 12px 14px;
+  }
+  h1 { font-size: 18px; margin: 0 0 8px; }
+  .meta { font-size: 12px; color: #555; margin-bottom: 12px; }
+  .filter { margin-bottom: 10px; }
+  .filter input, .filter select {
+    width: 100%; box-sizing: border-box; padding: 6px 8px;
+    font-size: 13px; border: 1px solid #c8c3b3; border-radius: 4px;
+    margin-bottom: 6px; background: white;
+  }
+  ul.tree-list { list-style: none; padding: 0; margin: 0; font-size: 13px; }
+  ul.tree-list li {
+    padding: 6px 8px; border-bottom: 1px solid #ece8da;
+    cursor: pointer;
+  }
+  ul.tree-list li:hover { background: #efece0; }
+  ul.tree-list li .id { font-weight: 600; color: #2a5d2a; }
+  ul.tree-list li .nm { color: #444; }
+  .leaflet-popup-content { font-size: 13px; line-height: 1.4; min-width: 200px; }
+  .leaflet-popup-content .tid { font-weight: 600; color: #2a5d2a; font-size: 14px; }
+  .leaflet-popup-content .bot { font-style: italic; color: #555; }
+  .leaflet-popup-content table { font-size: 12px; margin-top: 6px; border-collapse: collapse; }
+  .leaflet-popup-content table td { padding: 1px 6px 1px 0; vertical-align: top; }
+  .leaflet-popup-content table td.k { color: #777; }
+  .tree-marker {
+    background: #2a8a2a; border: 2px solid white; border-radius: 50%;
+    width: 12px; height: 12px;
+    box-shadow: 0 0 0 1px rgba(0,0,0,0.3);
+  }
+  .tree-marker.orphan { background: #b8801a; }
+</style>
+</head>
+<body>
+<div id="app">
+  <div id="map"></div>
+  <aside id="sidebar">
+    <h1>Morningside Gardens Tree Map</h1>
+    <div class="meta" id="meta">loading…</div>
+    <div class="filter">
+      <input type="search" id="q" placeholder="Search ID, common, or botanical name…">
+      <select id="quad">
+        <option value="">All quadrants</option>
+        <option value="NW">NW</option>
+        <option value="NE">NE</option>
+        <option value="SW">SW</option>
+        <option value="SE">SE</option>
+      </select>
+    </div>
+    <ul class="tree-list" id="list"></ul>
+  </aside>
+</div>
+<script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+<script>
+(async function() {
+  const trees = await fetch('data/trees.json').then(r => r.json());
+
+  // Image dimensions: 3456 x 2592 (matches assets/map.png)
+  const W = 3456, H = 2592;
+
+  // Use Leaflet in CRS.Simple mode so [y, x] image coords work directly.
+  const map = L.map('map', {
+    crs: L.CRS.Simple,
+    minZoom: -2.2,
+    maxZoom: 2,
+    zoomSnap: 0.25,
+    attributionControl: false
+  });
+  const bounds = [[0, 0], [H, W]];
+  L.imageOverlay('assets/map.png', bounds).addTo(map);
+  map.fitBounds(bounds);
+  map.setMaxBounds([[-200, -200], [H + 200, W + 200]]);
+
+  function popupHtml(t) {
+    const rows = [];
+    if (t.botanical_name) rows.push(['Botanical', `<i>${t.botanical_name}</i>`]);
+    if (t.trefle_family) rows.push(['Family', t.trefle_family]);
+    if (t.dba_2020) rows.push(['DBH 2020', t.dba_2020]);
+    if (t.planted) rows.push(['Planted', t.planted]);
+    if (t.note) rows.push(['Note', t.note]);
+    const tbl = rows.length
+      ? `<table>${rows.map(([k,v]) => `<tr><td class="k">${k}</td><td>${v}</td></tr>`).join('')}</table>`
+      : '';
+
+    // Use Trefle common name if available, fallback to table
+    const cn = t.trefle_common || t.common_name || '<span style="color:#999">(no species data)</span>';
+    const link = t.trefle_slug ? ` <a href="https://trefle.io/${t.trefle_slug}" target="_blank" style="font-size:11px;color:#2a8a2a">📖</a>` : '';
+
+    return `<div class="tid">${t.id}${link}</div><div>${cn}</div>${tbl}`;
+  }
+
+  const markersById = {};
+  const markerLayer = L.layerGroup().addTo(map);
+
+  trees.forEach(t => {
+    if (t.x == null || t.y == null) return;
+    // Image y origin is top; Leaflet CRS.Simple y-up by default — flip y.
+    const lat = H - t.y;
+    const lng = t.x;
+    const cls = t.has_table_data ? 'tree-marker' : 'tree-marker orphan';
+    const icon = L.divIcon({ className: '', html: `<div class="${cls}"></div>`, iconSize: [12, 12], iconAnchor: [6, 6] });
+    const m = L.marker([lat, lng], { icon, title: t.id });
+    m.bindPopup(popupHtml(t));
+    m.addTo(markerLayer);
+    markersById[t.id] = m;
+  });
+
+  // Sidebar: stats + list
+  const withPos = trees.filter(t => t.x != null).length;
+  const withData = trees.filter(t => t.has_table_data).length;
+  document.getElementById('meta').textContent =
+    `${trees.length} trees · ${withPos} on map · ${withData} with species data`;
+
+  const listEl = document.getElementById('list');
+  const qEl = document.getElementById('q');
+  const quadEl = document.getElementById('quad');
+
+  function render() {
+    const q = qEl.value.trim().toLowerCase();
+    const quad = quadEl.value;
+    const items = trees.filter(t => {
+      if (quad && !t.id.startsWith(quad)) return false;
+      if (q) {
+        const hay = `${t.id} ${t.common_name} ${t.botanical_name}`.toLowerCase();
+        if (!hay.includes(q)) return false;
+      }
+      return true;
+    });
+    listEl.innerHTML = items.slice(0, 400).map(t => {
+      const marker = t.x != null ? '' : ' <span style="color:#b8801a">(no map pos)</span>';
+      const cn = t.common_name || '<span style="color:#999">unknown</span>';
+      return `<li data-id="${t.id}"><span class="id">${t.id}</span> <span class="nm">${cn}</span>${marker}</li>`;
+    }).join('');
+  }
+  render();
+
+  qEl.addEventListener('input', render);
+  quadEl.addEventListener('change', render);
+  listEl.addEventListener('click', e => {
+    const li = e.target.closest('li');
+    if (!li) return;
+    const id = li.dataset.id;
+    const m = markersById[id];
+    if (!m) return;
+    map.flyTo(m.getLatLng(), 0.5, { duration: 0.5 });
+    m.openPopup();
+  });
+})();
+</script>
+</body>
+</html>

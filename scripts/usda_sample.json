@@ -1,0 +1,47 @@
+{
+  "Acer griseum": {
+    "error": "Expecting value: line 1 column 1 (char 0)"
+  },
+  "Acer palmatum": {
+    "error": "Expecting value: line 1 column 1 (char 0)"
+  },
+  "Acer platanoides": {
+    "error": "Expecting value: line 1 column 1 (char 0)"
+  },
+  "Acer rubrum": {
+    "error": "Expecting value: line 1 column 1 (char 0)"
+  },
+  "Aesculus carnea": {
+    "error": "Expecting value: line 1 column 1 (char 0)"
+  },
+  "Amelanchier canadensis": {
+    "error": "Expecting value: line 1 column 1 (char 0)"
+  },
+  "Betula nigra": {
+    "error": "Expecting value: line 1 column 1 (char 0)"
+  },
+  "Carpinus betlus": {
+    "error": "Expecting value: line 1 column 1 (char 0)"
+  },
+  "Carpinus betulus fastigiata": {
+    "error": "Expecting value: line 1 column 1 (char 0)"
+  },
+  "Carya ovata": {
+    "error": "Expecting value: line 1 column 1 (char 0)"
+  },
+  "Cedrus aglaucitlantica": {
+    "error": "Expecting value: line 1 column 1 (char 0)"
+  },
+  "Cedrus atlantica glauca": {
+    "error": "Expecting value: line 1 column 1 (char 0)"
+  },
+  "Cedrus atlantica glauca pendula": {
+    "error": "Expecting value: line 1 column 1 (char 0)"
+  },
+  "Cercis canadensis": {
+    "error": "Expecting value: line 1 column 1 (char 0)"
+  },
+  "Chamaecyparis Nootkatensis": {
+    "error": "Expecting value: line 1 column 1 (char 0)"
+  }
+}

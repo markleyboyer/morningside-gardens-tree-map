@@ -1,0 +1,2322 @@
+[
+  {
+    "id": "NW-1",
+    "common_name": "Weeping Alaskan Cedar",
+    "botanical_name": "Chamaecyparis nootkatensis 'Penula'",
+    "dba_2020": "",
+    "planted": "",
+    "note": ""
+  },
+  {
+    "id": "NW-2",
+    "common_name": "Shadblow",
+    "botanical_name": "Amelanchier canadensis",
+    "dba_2020": "",
+    "planted": "",
+    "note": ""
+  },
+  {
+    "id": "NW-3",
+    "common_name": "Littleleaf Linden",
+    "botanical_name": "Tillia cordata",
+    "dba_2020": "19.2",
+    "planted": "",
+    "note": ""
+  },
+  {
+    "id": "NW-4",
+    "common_name": "Jade Crabappple",
+    "botanical_name": "Malas sp.",
+    "dba_2020": "",
+    "planted": "",
+    "note": ""
+  },
+  {
+    "id": "NW-5",
+    "common_name": "Littleleaf Linden",
+    "botanical_name": "Tillia cordata",
+    "dba_2020": "22",
+    "planted": "",
+    "note": ""
+  },
+  {
+    "id": "NW-6",
+    "common_name": "Armstrong Columnar Maple",
+    "botanical_name": "Acer rubrum 'Armstrong'",
+    "dba_2020": "7.3",
+    "planted": "",
+    "note": ""
+  },
+  {
+    "id": "NW-7",
+    "common_name": "Littleleaf Linden",
+    "botanical_name": "Tillia cordata",
+    "dba_2020": "22",
+    "planted": "",
+    "note": ""
+  },
+  {
+    "id": "NW-8",
+    "common_name": "Fastigated Beech",
+    "botanical_name": "Fagus sylvatica 'Dawyck'",
+    "dba_2020": "10",
+    "planted": "",
+    "note": ""
+  },
+  {
+    "id": "NW-9",
+    "common_name": "Littleleaf Linden",
+    "botanical_name": "Tillia cordata",
+    "dba_2020": "22",
+    "planted": "",
+    "note": ""
+  },
+  {
+    "id": "NW-10",
+    "common_name": "Honey Locust",
+    "botanical_name": "Gleditsia triacanthus",
+    "dba_2020": "23",
+    "planted": "",
+    "note": ""
+  },
+  {
+    "id": "NW-11",
+    "common_name": "",
+    "botanical_name": "",
+    "dba_2020": "",
+    "planted": "",
+    "note": ""
+  },
+  {
+    "id": "NW-12",
+    "common_name": "",
+    "botanical_name": "",
+    "dba_2020": "",
+    "planted": "",
+    "note": ""
+  },
+  {
+    "id": "NW-13",
+    "common_name": "Lady Dragon Holly",
+    "botanical_name": "Ilex aquipernyi 'Lady Dragon'",
+    "dba_2020": "",
+    "planted": "",
+    "note": ""
+  },
+  {
+    "id": "NW-14",
+    "common_name": "Magnolia",
+    "botanical_name": "Magnolia",
+    "dba_2020": "",
+    "planted": "2023",
+    "note": ""
+  },
+  {
+    "id": "NW-15",
+    "common_name": "Saucer Magnolia",
+    "botanical_name": "Magnolia stellate (2 stem)",
+    "dba_2020": "",
+    "planted": "",
+    "note": ""
+  },
+  {
+    "id": "NW-16",
+    "common_name": "Honey Locust",
+    "botanical_name": "Gleditsia triacanthus",
+    "dba_2020": "19",
+    "planted": "",
+    "note": ""
+  },
+  {
+    "id": "NW-17",
+    "common_name": "Callery Pear",
+    "botanical_name": "Pyrus calleryana 'Cleveland'",
+    "dba_2020": "12",
+    "planted": "",
+    "note": ""
+  },
+  {
+    "id": "NW-18",
+    "common_name": "",
+    "botanical_name": "",
+    "dba_2020": "",
+    "planted": "2023 Terrain",
+    "note": ""
+  },
+  {
+    "id": "NW-19",
+    "common_name": "",
+    "botanical_name": "",
+    "dba_2020": "",
+    "planted": "2023 Terrain",
+    "note": ""
+  },
+  {
+    "id": "NW-20",
+    "common_name": "",
+    "botanical_name": "",
+    "dba_2020": "",
+    "planted": "2023 Terrain",
+    "note": ""
+  },
+  {
+    "id": "NW-21",
+    "common_name": "",
+    "botanical_name": "",
+    "dba_2020": "",
+    "planted": "",
+    "note": ""
+  },
+  {
+    "id": "NW-22",
+    "common_name": "",
+    "botanical_name": "",
+    "dba_2020": "",
+    "planted": "",
+    "note": ""
+  },
+  {
+    "id": "NW-23",
+    "common_name": "Shagebark Hickory",
+    "botanical_name": "Carya ovata",
+    "dba_2020": "",
+    "planted": "2023",
+    "note": ""
+  },
+  {
+    "id": "NW-24",
+    "common_name": "White Oak",
+    "botanical_name": "Quercus alba",
+    "dba_2020": "13",
+    "planted": "2018",
+    "note": ""
+  },
+  {
+    "id": "NW-25",
+    "common_name": "Sweetgum",
+    "botanical_name": "Liquidambar styraciflua",
+    "dba_2020": "",
+    "planted": "2018",
+    "note": ""
+  },
+  {
+    "id": "NW-26",
+    "common_name": "Shadblow",
+    "botanical_name": "Amelanchier canadensis",
+    "dba_2020": "",
+    "planted": "2025",
+    "note": ""
+  },
+  {
+    "id": "NW-27",
+    "common_name": "London Plane",
+    "botanical_name": "Platanus acerifolia",
+    "dba_2020": "19",
+    "planted": "",
+    "note": ""
+  },
+  {
+    "id": "NW-28",
+    "common_name": "London Plane",
+    "botanical_name": "Platanus acerifolia",
+    "dba_2020": "19",
+    "planted": "",
+    "note": ""
+  },
+  {
+    "id": "NW-29",
+    "common_name": "London Plane",
+    "botanical_name": "Platanus acerifolia",
+    "dba_2020": "17",
+    "planted": "",
+    "note": ""
+  },
+  {
+    "id": "NW-30",
+    "common_name": "London Plane",
+    "botanical_name": "Platanus acerifolia",
+    "dba_2020": "16",
+    "planted": "",
+    "note": ""
+  },
+  {
+    "id": "NW-31",
+    "common_name": "",
+    "botanical_name": "",
+    "dba_2020": "",
+    "planted": "",
+    "note": ""
+  },
+  {
+    "id": "NW-32",
+    "common_name": "",
+    "botanical_name": "",
+    "dba_2020": "",
+    "planted": "",
+    "note": ""
+  },
+  {
+    "id": "NW-33",
+    "common_name": "London Plane",
+    "botanical_name": "Platanus acerifolia",
+    "dba_2020": "",
+    "planted": "",
+    "note": ""
+  },
+  {
+    "id": "NW-34",
+    "common_name": "Shadblow",
+    "botanical_name": "Amelanchier canadensis",
+    "dba_2020": "",
+    "planted": "",
+    "note": ""
+  },
+  {
+    "id": "NW-35",
+    "common_name": "Japanese Maple",
+    "botanical_name": "Acer palmatum (twin)",
+    "dba_2020": "",
+    "planted": "",
+    "note": ""
+  },
+  {
+    "id": "NW-36",
+    "common_name": "London Plane",
+    "botanical_name": "Platanus acerifolia",
+    "dba_2020": "",
+    "planted": "",
+    "note": ""
+  },
+  {
+    "id": "NW-37",
+    "common_name": "London Plane",
+    "botanical_name": "Platanus acerifolia",
+    "dba_2020": "",
+    "planted": "",
+    "note": ""
+  },
+  {
+    "id": "NW-38",
+    "common_name": "London Plane",
+    "botanical_name": "Platanus acerifolia",
+    "dba_2020": "",
+    "planted": "",
+    "note": ""
+  },
+  {
+    "id": "NW-39",
+    "common_name": "Dragon Lady Holly",
+    "botanical_name": "Ilex aquipernyi 'Lady Dragon'",
+    "dba_2020": "",
+    "planted": "",
+    "note": ""
+  },
+  {
+    "id": "NW-40",
+    "common_name": "Hawthorn",
+    "botanical_name": "Crataegus sp.",
+    "dba_2020": "",
+    "planted": "",
+    "note": ""
+  },
+  {
+    "id": "NW-41",
+    "common_name": "",
+    "botanical_name": "",
+    "dba_2020": "",
+    "planted": "",
+    "note": ""
+  },
+  {
+    "id": "NW-42",
+    "common_name": "",
+    "botanical_name": "",
+    "dba_2020": "",
+    "planted": "",
+    "note": ""
+  },
+  {
+    "id": "NW-43",
+    "common_name": "Hawthorn",
+    "botanical_name": "Crataegus sp.",
+    "dba_2020": "",
+    "planted": "",
+    "note": ""
+  },
+  {
+    "id": "NW-44",
+    "common_name": "Honey Locust",
+    "botanical_name": "Gleditsia triacanthus",
+    "dba_2020": "16",
+    "planted": "",
+    "note": ""
+  },
+  {
+    "id": "NW-45",
+    "common_name": "Japanese Cedar",
+    "botanical_name": "Cryptomeria japonica",
+    "dba_2020": "",
+    "planted": "",
+    "note": ""
+  },
+  {
+    "id": "NW-46",
+    "common_name": "",
+    "botanical_name": "",
+    "dba_2020": "",
+    "planted": "",
+    "note": ""
+  },
+  {
+    "id": "NW-47",
+    "common_name": "Honey Locust",
+    "botanical_name": "Gleditsia triacanthus",
+    "dba_2020": "23",
+    "planted": "",
+    "note": ""
+  },
+  {
+    "id": "NW-48",
+    "common_name": "Honey Locust",
+    "botanical_name": "Gleditsia triacanthus",
+    "dba_2020": "18",
+    "planted": "",
+    "note": ""
+  },
+  {
+    "id": "NW-49",
+    "common_name": "Honey Locust",
+    "botanical_name": "Gleditsia triacanthus",
+    "dba_2020": "18",
+    "planted": "",
+    "note": ""
+  },
+  {
+    "id": "NW-50",
+    "common_name": "Hawthorn",
+    "botanical_name": "Crataegus sp.",
+    "dba_2020": "7",
+    "planted": "",
+    "note": ""
+  },
+  {
+    "id": "NW-51",
+    "common_name": "Cherry",
+    "botanical_name": "Prunus spec.",
+    "dba_2020": "",
+    "planted": "2023 Terrain",
+    "note": ""
+  },
+  {
+    "id": "NW-52",
+    "common_name": "",
+    "botanical_name": "",
+    "dba_2020": "",
+    "planted": "",
+    "note": ""
+  },
+  {
+    "id": "NW-53",
+    "common_name": "Sand Cherry",
+    "botanical_name": "Prunua cistena",
+    "dba_2020": "",
+    "planted": "",
+    "note": ""
+  },
+  {
+    "id": "NW-54",
+    "common_name": "Sand Cherry",
+    "botanical_name": "Prunua cistena",
+    "dba_2020": "",
+    "planted": "",
+    "note": ""
+  },
+  {
+    "id": "NW-55",
+    "common_name": "Hawthorn (twin stem)",
+    "botanical_name": "Crataegus sp.",
+    "dba_2020": "5,7",
+    "planted": "",
+    "note": ""
+  },
+  {
+    "id": "NW-56",
+    "common_name": "Hawthorn",
+    "botanical_name": "Crataegus sp.",
+    "dba_2020": "9",
+    "planted": "",
+    "note": ""
+  },
+  {
+    "id": "NW-57",
+    "common_name": "Hawthorn",
+    "botanical_name": "Crataegus sp.",
+    "dba_2020": "9",
+    "planted": "",
+    "note": ""
+  },
+  {
+    "id": "NW-58",
+    "common_name": "Katherine Crabapple",
+    "botanical_name": "Malas 'Katherine'",
+    "dba_2020": "5",
+    "planted": "",
+    "note": ""
+  },
+  {
+    "id": "NW-59",
+    "common_name": "Princeton Elm",
+    "botanical_name": "Ulmus americana 'princeton'",
+    "dba_2020": "30",
+    "planted": "",
+    "note": ""
+  },
+  {
+    "id": "NW-60",
+    "common_name": "Korean Dogwood",
+    "botanical_name": "Cornus kousa",
+    "dba_2020": "8",
+    "planted": "",
+    "note": ""
+  },
+  {
+    "id": "NW-61",
+    "common_name": "",
+    "botanical_name": "",
+    "dba_2020": "",
+    "planted": "",
+    "note": ""
+  },
+  {
+    "id": "NW-62",
+    "common_name": "",
+    "botanical_name": "",
+    "dba_2020": "",
+    "planted": "",
+    "note": ""
+  },
+  {
+    "id": "NW-63",
+    "common_name": "Kwanzan Cherry",
+    "botanical_name": "Prunus serrulata 'Kwanzan'",
+    "dba_2020": "9",
+    "planted": "",
+    "note": ""
+  },
+  {
+    "id": "NW-64",
+    "common_name": "Katherine Crabapple",
+    "botanical_name": "Malas 'Katherine'",
+    "dba_2020": "8",
+    "planted": "",
+    "note": ""
+  },
+  {
+    "id": "NW-65",
+    "common_name": "London Plane",
+    "botanical_name": "Platanus acerifolia",
+    "dba_2020": "21",
+    "planted": "",
+    "note": ""
+  },
+  {
+    "id": "NW-66",
+    "common_name": "London Plane",
+    "botanical_name": "Platanus acerifolia",
+    "dba_2020": "21",
+    "planted": "",
+    "note": ""
+  },
+  {
+    "id": "NW-67",
+    "common_name": "Crape Myrtle",
+    "botanical_name": "Lagarstroemia sp.",
+    "dba_2020": "",
+    "planted": "",
+    "note": ""
+  },
+  {
+    "id": "NW-68",
+    "common_name": "Crape Myrtle",
+    "botanical_name": "Lagarstroemia sp.",
+    "dba_2020": "",
+    "planted": "",
+    "note": ""
+  },
+  {
+    "id": "NW-69",
+    "common_name": "London Plane",
+    "botanical_name": "Platanus acerifolia",
+    "dba_2020": "21",
+    "planted": "",
+    "note": ""
+  },
+  {
+    "id": "NW-70",
+    "common_name": "Hawthorn",
+    "botanical_name": "Crataegus sp.",
+    "dba_2020": "8",
+    "planted": "",
+    "note": ""
+  },
+  {
+    "id": "SW-1",
+    "common_name": "Magnolia",
+    "botanical_name": "",
+    "dba_2020": "",
+    "planted": "2023 Terrain",
+    "note": ""
+  },
+  {
+    "id": "SW-2",
+    "common_name": "Hawthorn",
+    "botanical_name": "Crataegus sp.",
+    "dba_2020": "9",
+    "planted": "",
+    "note": ""
+  },
+  {
+    "id": "SW-3",
+    "common_name": "Redbud",
+    "botanical_name": "Cercis canadensis",
+    "dba_2020": "",
+    "planted": "",
+    "note": ""
+  },
+  {
+    "id": "SW-4",
+    "common_name": "Hawthorn",
+    "botanical_name": "Crataegus sp. (twin)",
+    "dba_2020": "8",
+    "planted": "",
+    "note": ""
+  },
+  {
+    "id": "SW-5",
+    "common_name": "Hawthorn",
+    "botanical_name": "Crataegus sp. (twin)",
+    "dba_2020": "6,5",
+    "planted": "",
+    "note": ""
+  },
+  {
+    "id": "SW-6",
+    "common_name": "Littleleaf Linden",
+    "botanical_name": "Tillia cordata",
+    "dba_2020": "19",
+    "planted": "",
+    "note": ""
+  },
+  {
+    "id": "SW-7",
+    "common_name": "Littleleaf Linden",
+    "botanical_name": "Tillia cordata",
+    "dba_2020": "19",
+    "planted": "",
+    "note": ""
+  },
+  {
+    "id": "SW-8",
+    "common_name": "Sweetgum",
+    "botanical_name": "Liquidambar styraciflua",
+    "dba_2020": "21",
+    "planted": "",
+    "note": ""
+  },
+  {
+    "id": "SW-9",
+    "common_name": "Hemlock",
+    "botanical_name": "Tsuga canadensis",
+    "dba_2020": "",
+    "planted": "2024",
+    "note": ""
+  },
+  {
+    "id": "SW-10",
+    "common_name": "Littleleaf Linden",
+    "botanical_name": "Tillia cordata",
+    "dba_2020": "23",
+    "planted": "",
+    "note": ""
+  },
+  {
+    "id": "SW-11",
+    "common_name": "Hemlock",
+    "botanical_name": "Tsuga canadensis",
+    "dba_2020": "",
+    "planted": "2023",
+    "note": ""
+  },
+  {
+    "id": "SW-12",
+    "common_name": "",
+    "botanical_name": "",
+    "dba_2020": "",
+    "planted": "",
+    "note": ""
+  },
+  {
+    "id": "SW-13",
+    "common_name": "Littleleaf Linden",
+    "botanical_name": "Tillia cordata",
+    "dba_2020": "20",
+    "planted": "",
+    "note": ""
+  },
+  {
+    "id": "SW-14",
+    "common_name": "Weeping Alaskan Cedar",
+    "botanical_name": "Chamaecyparis nootkatensis 'Penula'",
+    "dba_2020": "12' ht.",
+    "planted": "",
+    "note": ""
+  },
+  {
+    "id": "SW-15",
+    "common_name": "Littleleaf Linden",
+    "botanical_name": "Tillia cordata",
+    "dba_2020": "19",
+    "planted": "",
+    "note": ""
+  },
+  {
+    "id": "SW-16",
+    "common_name": "Kwanzan Cherry",
+    "botanical_name": "Prunus serrulata 'Kwanzan'",
+    "dba_2020": "12",
+    "planted": "",
+    "note": ""
+  },
+  {
+    "id": "SW-17",
+    "common_name": "Kwanzan Cherry",
+    "botanical_name": "Prunus serrulata 'Kwanzan'",
+    "dba_2020": "12",
+    "planted": "",
+    "note": ""
+  },
+  {
+    "id": "SW-18",
+    "common_name": "Dawn Redwood",
+    "botanical_name": "Metasequoia glypto-stroboides",
+    "dba_2020": "22",
+    "planted": "",
+    "note": ""
+  },
+  {
+    "id": "SW-19",
+    "common_name": "Crape Myrtle",
+    "botanical_name": "Lagarstroemia sp.",
+    "dba_2020": "",
+    "planted": "",
+    "note": ""
+  },
+  {
+    "id": "SW-20",
+    "common_name": "Crape Myrtle",
+    "botanical_name": "Lagarstroemia sp.",
+    "dba_2020": "",
+    "planted": "",
+    "note": ""
+  },
+  {
+    "id": "SW-21",
+    "common_name": "",
+    "botanical_name": "",
+    "dba_2020": "",
+    "planted": "",
+    "note": ""
+  },
+  {
+    "id": "SW-22",
+    "common_name": "",
+    "botanical_name": "",
+    "dba_2020": "",
+    "planted": "",
+    "note": ""
+  },
+  {
+    "id": "SW-23",
+    "common_name": "Crape Myrtle",
+    "botanical_name": "Lagarstroemia sp.",
+    "dba_2020": "",
+    "planted": "",
+    "note": ""
+  },
+  {
+    "id": "SW-24",
+    "common_name": "Crape Myrtle",
+    "botanical_name": "Lagarstroemia sp.",
+    "dba_2020": "",
+    "planted": "",
+    "note": ""
+  },
+  {
+    "id": "SW-25",
+    "common_name": "Crabapple",
+    "botanical_name": "Malas spec.",
+    "dba_2020": "10",
+    "planted": "",
+    "note": ""
+  },
+  {
+    "id": "SW-26",
+    "common_name": "Smoke tree",
+    "botanical_name": "Cotinus coggygria",
+    "dba_2020": "",
+    "planted": "",
+    "note": ""
+  },
+  {
+    "id": "SW-27",
+    "common_name": "Crape Myrtle",
+    "botanical_name": "Lagarstroemia sp.",
+    "dba_2020": "",
+    "planted": "",
+    "note": ""
+  },
+  {
+    "id": "SW-28",
+    "common_name": "Honey Locust",
+    "botanical_name": "Gleditsia triacanthus",
+    "dba_2020": "18",
+    "planted": "",
+    "note": ""
+  },
+  {
+    "id": "SW-29",
+    "common_name": "London Plane",
+    "botanical_name": "Platanus acerifolia",
+    "dba_2020": "26",
+    "planted": "",
+    "note": ""
+  },
+  {
+    "id": "SW-30",
+    "common_name": "Japanese Maple",
+    "botanical_name": "Acer palmatum 'Bloodgood'",
+    "dba_2020": "10",
+    "planted": "",
+    "note": ""
+  },
+  {
+    "id": "SW-31",
+    "common_name": "Honey Locust",
+    "botanical_name": "Gleditsia triacanthus",
+    "dba_2020": "22",
+    "planted": "",
+    "note": ""
+  },
+  {
+    "id": "SW-32",
+    "common_name": "Honey Locust",
+    "botanical_name": "Gleditsia triacanthus",
+    "dba_2020": "22",
+    "planted": "",
+    "note": ""
+  },
+  {
+    "id": "SW-33",
+    "common_name": "Callery Pear",
+    "botanical_name": "Pyrus calleryana",
+    "dba_2020": "26",
+    "planted": "",
+    "note": ""
+  },
+  {
+    "id": "SW-34",
+    "common_name": "",
+    "botanical_name": "",
+    "dba_2020": "",
+    "planted": "",
+    "note": ""
+  },
+  {
+    "id": "SW-35",
+    "common_name": "Hornbeam",
+    "botanical_name": "Carpinus betlus 'Fastigata'",
+    "dba_2020": "",
+    "planted": "2023 Terrain",
+    "note": ""
+  },
+  {
+    "id": "SW-36",
+    "common_name": "Hornbeam",
+    "botanical_name": "Carpinus betlus 'Fastigata'",
+    "dba_2020": "",
+    "planted": "2023 Terrain",
+    "note": ""
+  },
+  {
+    "id": "SW-37",
+    "common_name": "Hornbeam",
+    "botanical_name": "Carpinus betlus 'Fastigata'",
+    "dba_2020": "",
+    "planted": "2023 Terrain",
+    "note": ""
+  },
+  {
+    "id": "SW-38",
+    "common_name": "Honey Locust",
+    "botanical_name": "Gleditsia triacanthus",
+    "dba_2020": "19",
+    "planted": "",
+    "note": ""
+  },
+  {
+    "id": "SW-39",
+    "common_name": "Pagoda Dogwood",
+    "botanical_name": "Cornus alternifolea",
+    "dba_2020": "",
+    "planted": "2022",
+    "note": ""
+  },
+  {
+    "id": "SW-40",
+    "common_name": "Honey Locust",
+    "botanical_name": "Gleditsia triacanthus",
+    "dba_2020": "24",
+    "planted": "",
+    "note": ""
+  },
+  {
+    "id": "SW-41",
+    "common_name": "",
+    "botanical_name": "",
+    "dba_2020": "",
+    "planted": "",
+    "note": ""
+  },
+  {
+    "id": "SW-42",
+    "common_name": "",
+    "botanical_name": "",
+    "dba_2020": "",
+    "planted": "",
+    "note": ""
+  },
+  {
+    "id": "SW-43",
+    "common_name": "Japanese Pagoda",
+    "botanical_name": "Styphnolobium japonicum",
+    "dba_2020": "28",
+    "planted": "",
+    "note": ""
+  },
+  {
+    "id": "SW-44",
+    "common_name": "Pagoda Dogwood",
+    "botanical_name": "Cornus alternifolea",
+    "dba_2020": "",
+    "planted": "2022",
+    "note": ""
+  },
+  {
+    "id": "SW-45",
+    "common_name": "Pagoda Dogwood",
+    "botanical_name": "Cornus alternifolea",
+    "dba_2020": "",
+    "planted": "2022",
+    "note": ""
+  },
+  {
+    "id": "SW-46",
+    "common_name": "Pagoda Dogwood",
+    "botanical_name": "Cornus alternifolea",
+    "dba_2020": "",
+    "planted": "2022",
+    "note": ""
+  },
+  {
+    "id": "SW-47",
+    "common_name": "Lady Dragon Holly",
+    "botanical_name": "Ilex aquipernyi 'Lady Dragon'",
+    "dba_2020": "",
+    "planted": "",
+    "note": ""
+  },
+  {
+    "id": "SW-48",
+    "common_name": "Redbud",
+    "botanical_name": "Cercis canadensis",
+    "dba_2020": "",
+    "planted": "",
+    "note": ""
+  },
+  {
+    "id": "SW-49",
+    "common_name": "Japanese Pagoda",
+    "botanical_name": "Styphnolobium japonicum",
+    "dba_2020": "34",
+    "planted": "",
+    "note": ""
+  },
+  {
+    "id": "SW-50",
+    "common_name": "Pagoda Dogwood",
+    "botanical_name": "Cornus alternifolea",
+    "dba_2020": "",
+    "planted": "2022",
+    "note": ""
+  },
+  {
+    "id": "SW-51",
+    "common_name": "",
+    "botanical_name": "",
+    "dba_2020": "",
+    "planted": "",
+    "note": ""
+  },
+  {
+    "id": "SW-52",
+    "common_name": "",
+    "botanical_name": "",
+    "dba_2020": "",
+    "planted": "",
+    "note": ""
+  },
+  {
+    "id": "SW-53",
+    "common_name": "London Plane",
+    "botanical_name": "Platanus acerifolia",
+    "dba_2020": "19",
+    "planted": "",
+    "note": ""
+  },
+  {
+    "id": "SW-54",
+    "common_name": "London Plane",
+    "botanical_name": "Platanus acerifolia",
+    "dba_2020": "24",
+    "planted": "",
+    "note": ""
+  },
+  {
+    "id": "SW-55",
+    "common_name": "Japanese Black Pine",
+    "botanical_name": "Pinus thungbergii",
+    "dba_2020": "16",
+    "planted": "",
+    "note": ""
+  },
+  {
+    "id": "SW-56",
+    "common_name": "Blue Atlas Cedar",
+    "botanical_name": "Cedrus aglaucitlantica",
+    "dba_2020": "18",
+    "planted": "",
+    "note": ""
+  },
+  {
+    "id": "SW-57",
+    "common_name": "Pin Oak",
+    "botanical_name": "Quesrcus palustrus",
+    "dba_2020": "20",
+    "planted": "",
+    "note": ""
+  },
+  {
+    "id": "SW-58",
+    "common_name": "Plum",
+    "botanical_name": "Prunus cerasifera",
+    "dba_2020": "12",
+    "planted": "",
+    "note": ""
+  },
+  {
+    "id": "SW-59",
+    "common_name": "Fernleaf Beech",
+    "botanical_name": "Fagus sylvatica 'Asplenifolia'",
+    "dba_2020": "36",
+    "planted": "",
+    "note": ""
+  },
+  {
+    "id": "SW-60",
+    "common_name": "Hemlock",
+    "botanical_name": "Tsuga canadensis",
+    "dba_2020": "",
+    "planted": "2021",
+    "note": ""
+  },
+  {
+    "id": "SW-61",
+    "common_name": "",
+    "botanical_name": "",
+    "dba_2020": "",
+    "planted": "",
+    "note": ""
+  },
+  {
+    "id": "SW-62",
+    "common_name": "",
+    "botanical_name": "",
+    "dba_2020": "",
+    "planted": "",
+    "note": ""
+  },
+  {
+    "id": "SW-63",
+    "common_name": "Pin Oak",
+    "botanical_name": "Quesrcus palustrus",
+    "dba_2020": "22",
+    "planted": "",
+    "note": ""
+  },
+  {
+    "id": "SW-64",
+    "common_name": "Weeping Cherry",
+    "botanical_name": "Prunus subhertela pendula",
+    "dba_2020": "10",
+    "planted": "",
+    "note": ""
+  },
+  {
+    "id": "SW-65",
+    "common_name": "Zumi Crabapple",
+    "botanical_name": "Malus 'Zumi'",
+    "dba_2020": "14",
+    "planted": "",
+    "note": ""
+  },
+  {
+    "id": "SW-66",
+    "common_name": "Zumi Crabapple",
+    "botanical_name": "Malus 'Zumi'",
+    "dba_2020": "15",
+    "planted": "",
+    "note": ""
+  },
+  {
+    "id": "SW-67",
+    "common_name": "Zumi Crabapple",
+    "botanical_name": "Malus 'Zumi'",
+    "dba_2020": "16",
+    "planted": "",
+    "note": ""
+  },
+  {
+    "id": "SW-68",
+    "common_name": "Honey Locust",
+    "botanical_name": "Gleditsia triacanthus",
+    "dba_2020": "18",
+    "planted": "",
+    "note": ""
+  },
+  {
+    "id": "SW-69",
+    "common_name": "Honey Locust",
+    "botanical_name": "Gleditsia triacanthus",
+    "dba_2020": "25",
+    "planted": "",
+    "note": ""
+  },
+  {
+    "id": "SW-70",
+    "common_name": "Scarlet Oak",
+    "botanical_name": "Quercus coccinea",
+    "dba_2020": "21",
+    "planted": "",
+    "note": ""
+  },
+  {
+    "id": "SW-71",
+    "common_name": "",
+    "botanical_name": "",
+    "dba_2020": "",
+    "planted": "",
+    "note": ""
+  },
+  {
+    "id": "SW-72",
+    "common_name": "",
+    "botanical_name": "",
+    "dba_2020": "",
+    "planted": "",
+    "note": ""
+  },
+  {
+    "id": "SW-73",
+    "common_name": "",
+    "botanical_name": "",
+    "dba_2020": "",
+    "planted": "",
+    "note": ""
+  },
+  {
+    "id": "SW-74",
+    "common_name": "Flowering Crabapple",
+    "botanical_name": "Malus floribunda (3 stem)",
+    "dba_2020": "9,8,5",
+    "planted": "",
+    "note": ""
+  },
+  {
+    "id": "SW-75",
+    "common_name": "Kwanzan Cherry",
+    "botanical_name": "Prunus serrulata 'Kwanzan'",
+    "dba_2020": "14",
+    "planted": "",
+    "note": ""
+  },
+  {
+    "id": "SW-76",
+    "common_name": "Kwanzan Cherry",
+    "botanical_name": "Prunus serrulata 'Kwanzan'",
+    "dba_2020": "10",
+    "planted": "",
+    "note": ""
+  },
+  {
+    "id": "SW-77",
+    "common_name": "Shadblow",
+    "botanical_name": "Amelanchier canadensis",
+    "dba_2020": "7",
+    "planted": "",
+    "note": ""
+  },
+  {
+    "id": "SW-78",
+    "common_name": "White Oak",
+    "botanical_name": "Quercus alba",
+    "dba_2020": "3",
+    "planted": "",
+    "note": ""
+  },
+  {
+    "id": "SW-79",
+    "common_name": "Saucer Magnolia",
+    "botanical_name": "Magnolia soulangiana",
+    "dba_2020": "8",
+    "planted": "",
+    "note": ""
+  },
+  {
+    "id": "SW-80",
+    "common_name": "Lacebark pine",
+    "botanical_name": "Pinus bungeana",
+    "dba_2020": "11",
+    "planted": "",
+    "note": ""
+  },
+  {
+    "id": "SW-81",
+    "common_name": "",
+    "botanical_name": "",
+    "dba_2020": "",
+    "planted": "",
+    "note": ""
+  },
+  {
+    "id": "SW-82",
+    "common_name": "",
+    "botanical_name": "",
+    "dba_2020": "",
+    "planted": "",
+    "note": ""
+  },
+  {
+    "id": "SW-83",
+    "common_name": "Winged Euonymus",
+    "botanical_name": "Euonymus alata (4 stem0",
+    "dba_2020": "6,5,5,3",
+    "planted": "",
+    "note": ""
+  },
+  {
+    "id": "SW-84",
+    "common_name": "River Birch",
+    "botanical_name": "Betula nigra",
+    "dba_2020": "",
+    "planted": "2021",
+    "note": ""
+  },
+  {
+    "id": "SW-85",
+    "common_name": "River Birch",
+    "botanical_name": "Betula nigra",
+    "dba_2020": "",
+    "planted": "2021",
+    "note": ""
+  },
+  {
+    "id": "SW-86",
+    "common_name": "River Birch",
+    "botanical_name": "Betula nigra",
+    "dba_2020": "",
+    "planted": "2021",
+    "note": ""
+  },
+  {
+    "id": "SW-87",
+    "common_name": "Crimson King Maple",
+    "botanical_name": "Acer platanoides 'Crimson King'",
+    "dba_2020": "26",
+    "planted": "",
+    "note": ""
+  },
+  {
+    "id": "SW-88",
+    "common_name": "",
+    "botanical_name": "",
+    "dba_2020": "",
+    "planted": "",
+    "note": ""
+  },
+  {
+    "id": "SW-89",
+    "common_name": "Yellowood",
+    "botanical_name": "Cladrastris kentuckyea",
+    "dba_2020": "6",
+    "planted": "",
+    "note": ""
+  },
+  {
+    "id": "SW-90",
+    "common_name": "Princeton Elm",
+    "botanical_name": "Ulmus americana 'Princeton'",
+    "dba_2020": "22",
+    "planted": "",
+    "note": ""
+  },
+  {
+    "id": "SW-91",
+    "common_name": "Red Oak",
+    "botanical_name": "Quercus rubrum",
+    "dba_2020": "4",
+    "planted": "",
+    "note": ""
+  },
+  {
+    "id": "SW-92",
+    "common_name": "Pagoda Dodwood",
+    "botanical_name": "Cornus alternifolia",
+    "dba_2020": "",
+    "planted": "2018",
+    "note": ""
+  },
+  {
+    "id": "SW-93",
+    "common_name": "Pagoda Dodwood",
+    "botanical_name": "Cornus alternifolia",
+    "dba_2020": "",
+    "planted": "2018",
+    "note": ""
+  },
+  {
+    "id": "SE-1",
+    "common_name": "Hinoki Cypress",
+    "botanical_name": "Chamaecyparis obtusa 'Var.'",
+    "dba_2020": "3",
+    "planted": "",
+    "note": ""
+  },
+  {
+    "id": "SE-2",
+    "common_name": "Princeton Elm",
+    "botanical_name": "Ulmus americana 'Princeton'",
+    "dba_2020": "22",
+    "planted": "",
+    "note": ""
+  },
+  {
+    "id": "SE-3",
+    "common_name": "Princeton Elm",
+    "botanical_name": "Ulmus americana 'Princeton'",
+    "dba_2020": "36",
+    "planted": "",
+    "note": ""
+  },
+  {
+    "id": "SE-4",
+    "common_name": "Honey Locust",
+    "botanical_name": "Gleditsia triacanthus",
+    "dba_2020": "20",
+    "planted": "",
+    "note": ""
+  },
+  {
+    "id": "SE-5",
+    "common_name": "Bloodgood Japanese Maple",
+    "botanical_name": "Acer palmatum 'Bloodgood'",
+    "dba_2020": "",
+    "planted": "",
+    "note": ""
+  },
+  {
+    "id": "SE-6",
+    "common_name": "Honey Locust",
+    "botanical_name": "Gleditsia triacanthus",
+    "dba_2020": "14",
+    "planted": "",
+    "note": ""
+  },
+  {
+    "id": "SE-7",
+    "common_name": "Honey Locust",
+    "botanical_name": "Gleditsia triacanthus",
+    "dba_2020": "12",
+    "planted": "",
+    "note": ""
+  },
+  {
+    "id": "SE-8",
+    "common_name": "Downy Hawthorn",
+    "botanical_name": "Crataegus mollis (2 stem)",
+    "dba_2020": "9,7",
+    "planted": "",
+    "note": ""
+  },
+  {
+    "id": "SE-9",
+    "common_name": "Honey Locust",
+    "botanical_name": "Gleditsia triacanthus",
+    "dba_2020": "19",
+    "planted": "",
+    "note": ""
+  },
+  {
+    "id": "SE-10",
+    "common_name": "",
+    "botanical_name": "",
+    "dba_2020": "",
+    "planted": "",
+    "note": ""
+  },
+  {
+    "id": "SE-11",
+    "common_name": "",
+    "botanical_name": "",
+    "dba_2020": "",
+    "planted": "",
+    "note": ""
+  },
+  {
+    "id": "SE-12",
+    "common_name": "",
+    "botanical_name": "",
+    "dba_2020": "",
+    "planted": "",
+    "note": ""
+  },
+  {
+    "id": "SE-13",
+    "common_name": "Apple",
+    "botanical_name": "Malas spec.",
+    "dba_2020": "19",
+    "planted": "",
+    "note": ""
+  },
+  {
+    "id": "SE-14",
+    "common_name": "Black Cherry",
+    "botanical_name": "Prunus serotina",
+    "dba_2020": "14",
+    "planted": "",
+    "note": ""
+  },
+  {
+    "id": "SE-15",
+    "common_name": "Honey Locust",
+    "botanical_name": "Gleditsia triacanthus",
+    "dba_2020": "15",
+    "planted": "",
+    "note": ""
+  },
+  {
+    "id": "SE-16",
+    "common_name": "Whitch Hazel",
+    "botanical_name": "Hamamelis virginiana",
+    "dba_2020": "3,5,5,6",
+    "planted": "",
+    "note": ""
+  },
+  {
+    "id": "SE-17",
+    "common_name": "Alder",
+    "botanical_name": "Alnus spec.",
+    "dba_2020": "8",
+    "planted": "",
+    "note": ""
+  },
+  {
+    "id": "SE-18",
+    "common_name": "Fastigated Hornbeam",
+    "botanical_name": "Carpinus betulus fastigiata",
+    "dba_2020": "10",
+    "planted": "",
+    "note": ""
+  },
+  {
+    "id": "SE-19",
+    "common_name": "Red Horse Chestnut",
+    "botanical_name": "Aesculus carnea",
+    "dba_2020": "19",
+    "planted": "",
+    "note": ""
+  },
+  {
+    "id": "SE-20",
+    "common_name": "Saucer Magnolia",
+    "botanical_name": "Magnolia soulangiana (x stem)",
+    "dba_2020": "10,8,6",
+    "planted": "",
+    "note": ""
+  },
+  {
+    "id": "SE-21",
+    "common_name": "Saucer Magnolia",
+    "botanical_name": "Magnolia soulangiana (x stem)",
+    "dba_2020": "7",
+    "planted": "2022",
+    "note": ""
+  },
+  {
+    "id": "SE-22",
+    "common_name": "",
+    "botanical_name": "",
+    "dba_2020": "",
+    "planted": "",
+    "note": ""
+  },
+  {
+    "id": "SE-23",
+    "common_name": "Saucer Magnolia",
+    "botanical_name": "Magnolia soulangiana (x stem)",
+    "dba_2020": "8,9,9,12",
+    "planted": "",
+    "note": ""
+  },
+  {
+    "id": "SE-24",
+    "common_name": "Flowering Crabapple",
+    "botanical_name": "Malus floribunda (2 stem)",
+    "dba_2020": "12,9",
+    "planted": "",
+    "note": ""
+  },
+  {
+    "id": "SE-25",
+    "common_name": "Flowering Crabapple",
+    "botanical_name": "Malus floribunda (2 stem)",
+    "dba_2020": "3",
+    "planted": "2025",
+    "note": ""
+  },
+  {
+    "id": "SE-26",
+    "common_name": "Flowering Crabapple",
+    "botanical_name": "Malus floribunda (2 stem)",
+    "dba_2020": "16",
+    "planted": "",
+    "note": ""
+  },
+  {
+    "id": "SE-27",
+    "common_name": "Honey Locust",
+    "botanical_name": "Gleditsia triacanthus",
+    "dba_2020": "20",
+    "planted": "",
+    "note": ""
+  },
+  {
+    "id": "SE-28",
+    "common_name": "Honey Locust",
+    "botanical_name": "Gleditsia triacanthus",
+    "dba_2020": "18",
+    "planted": "",
+    "note": ""
+  },
+  {
+    "id": "SE-29",
+    "common_name": "Honey Locust",
+    "botanical_name": "Gleditsia triacanthus",
+    "dba_2020": "18",
+    "planted": "",
+    "note": ""
+  },
+  {
+    "id": "SE-30",
+    "common_name": "Shagbark Hickory",
+    "botanical_name": "Carya ovata",
+    "dba_2020": "3",
+    "planted": "2020",
+    "note": ""
+  },
+  {
+    "id": "SE-31",
+    "common_name": "Alaskan Cedar",
+    "botanical_name": "Chamaecyparis Nootkatensis",
+    "dba_2020": "4",
+    "planted": "2020",
+    "note": ""
+  },
+  {
+    "id": "SE-32",
+    "common_name": "Redbud",
+    "botanical_name": "Cercis canadensis",
+    "dba_2020": "",
+    "planted": "",
+    "note": ""
+  },
+  {
+    "id": "SE-33",
+    "common_name": "Blue Atlas Cedar",
+    "botanical_name": "Cedrus atlantica glauca",
+    "dba_2020": "16",
+    "planted": "",
+    "note": ""
+  },
+  {
+    "id": "SE-34",
+    "common_name": "Chamaecyparis obtusa 'Var'",
+    "botanical_name": "Hinoki Cypress",
+    "dba_2020": "5",
+    "planted": "",
+    "note": ""
+  },
+  {
+    "id": "SE-35",
+    "common_name": "Honey Locust",
+    "botanical_name": "Gleditsia triacanthus",
+    "dba_2020": "22",
+    "planted": "",
+    "note": ""
+  },
+  {
+    "id": "SE-36",
+    "common_name": "Kousa Dogwood",
+    "botanical_name": "Cornus kousa",
+    "dba_2020": "",
+    "planted": "",
+    "note": ""
+  },
+  {
+    "id": "SE-37",
+    "common_name": "Weeping blue Atlas Cedar",
+    "botanical_name": "Cedrus atlantica glauca pendula",
+    "dba_2020": "",
+    "planted": "",
+    "note": ""
+  },
+  {
+    "id": "SE-38",
+    "common_name": "Magnolia",
+    "botanical_name": "Magnolia spec.",
+    "dba_2020": "",
+    "planted": "2023 Terrain",
+    "note": ""
+  },
+  {
+    "id": "SE-39",
+    "common_name": "Magnolia",
+    "botanical_name": "Magnolia spec.",
+    "dba_2020": "",
+    "planted": "2023 Terrain",
+    "note": ""
+  },
+  {
+    "id": "SE-40",
+    "common_name": "Hawthorn",
+    "botanical_name": "Crataegus spec.",
+    "dba_2020": "8",
+    "planted": "",
+    "note": ""
+  },
+  {
+    "id": "SE-41",
+    "common_name": "Magnolia",
+    "botanical_name": "Magnolia spec.",
+    "dba_2020": "",
+    "planted": "2023 Terrain",
+    "note": ""
+  },
+  {
+    "id": "SE-42",
+    "common_name": "",
+    "botanical_name": "",
+    "dba_2020": "",
+    "planted": "",
+    "note": ""
+  },
+  {
+    "id": "SE-43",
+    "common_name": "Honey Locust",
+    "botanical_name": "Gleditsia triacanthus",
+    "dba_2020": "14",
+    "planted": "",
+    "note": ""
+  },
+  {
+    "id": "SE-44",
+    "common_name": "Flowering Crabapple",
+    "botanical_name": "Malus floribunda",
+    "dba_2020": "14",
+    "planted": "",
+    "note": ""
+  },
+  {
+    "id": "SE-45",
+    "common_name": "Flowering Crabapple",
+    "botanical_name": "Malus floribunda (x stem)",
+    "dba_2020": "",
+    "planted": "",
+    "note": ""
+  },
+  {
+    "id": "SE-46",
+    "common_name": "Flowering Crabapple",
+    "botanical_name": "Malus floribunda (x stem)",
+    "dba_2020": "",
+    "planted": "",
+    "note": ""
+  },
+  {
+    "id": "SE-47",
+    "common_name": "London Plane",
+    "botanical_name": "Platanus acerifolia",
+    "dba_2020": "20",
+    "planted": "",
+    "note": ""
+  },
+  {
+    "id": "SE-48",
+    "common_name": "Saucer Magnolia",
+    "botanical_name": "Magnolia soulangiana (x stem)",
+    "dba_2020": "8,5",
+    "planted": "",
+    "note": ""
+  },
+  {
+    "id": "SE-49",
+    "common_name": "Honey Locust",
+    "botanical_name": "Gleditsia triacanthus",
+    "dba_2020": "14",
+    "planted": "",
+    "note": ""
+  },
+  {
+    "id": "SE-50",
+    "common_name": "Kentucky Coffee Tree",
+    "botanical_name": "Gymno-cladus dioicus",
+    "dba_2020": "15",
+    "planted": "",
+    "note": ""
+  },
+  {
+    "id": "SE-51",
+    "common_name": "Hornbeam",
+    "botanical_name": "Carpinus 'Fastigata'",
+    "dba_2020": "",
+    "planted": "2023 Terrain",
+    "note": ""
+  },
+  {
+    "id": "SE-52",
+    "common_name": "",
+    "botanical_name": "",
+    "dba_2020": "",
+    "planted": "",
+    "note": ""
+  },
+  {
+    "id": "SE-53",
+    "common_name": "Hinoki Cypress",
+    "botanical_name": "Chameacyparis obtusa 'Var.'",
+    "dba_2020": "7' ht.",
+    "planted": "",
+    "note": ""
+  },
+  {
+    "id": "SE-54",
+    "common_name": "Columnar Blue Spruce",
+    "botanical_name": "Picea punguns 'Fastigata'",
+    "dba_2020": "7' ht",
+    "planted": "2019",
+    "note": ""
+  },
+  {
+    "id": "SE-55",
+    "common_name": "Honey Crisp Apple",
+    "botanical_name": "Malus 'Honet Crisp'",
+    "dba_2020": "4",
+    "planted": "2019",
+    "note": ""
+  },
+  {
+    "id": "SE-56",
+    "common_name": "Liberty Apple",
+    "botanical_name": "Malus 'Liberty'",
+    "dba_2020": "4",
+    "planted": "2019",
+    "note": ""
+  },
+  {
+    "id": "NE-1",
+    "common_name": "Ornamental Cherry",
+    "botanical_name": "Prunus spec.",
+    "dba_2020": "",
+    "planted": "",
+    "note": ""
+  },
+  {
+    "id": "NE-2",
+    "common_name": "Weeping Norway Spruce",
+    "botanical_name": "Picea abies 'Pendula'",
+    "dba_2020": "",
+    "planted": "",
+    "note": ""
+  },
+  {
+    "id": "NE-3",
+    "common_name": "Ornamental Cherry",
+    "botanical_name": "Prunus spec.",
+    "dba_2020": "",
+    "planted": "",
+    "note": ""
+  },
+  {
+    "id": "NE-4",
+    "common_name": "Kouse Dogwood",
+    "botanical_name": "Conrus kousa",
+    "dba_2020": "",
+    "planted": "",
+    "note": ""
+  },
+  {
+    "id": "NE-5",
+    "common_name": "Shagbark Hickory",
+    "botanical_name": "Carya ovata",
+    "dba_2020": "",
+    "planted": "2018",
+    "note": ""
+  },
+  {
+    "id": "NE-6",
+    "common_name": "Littleleaf Linden",
+    "botanical_name": "Tillia cordata",
+    "dba_2020": "14",
+    "planted": "",
+    "note": ""
+  },
+  {
+    "id": "NE-7",
+    "common_name": "Columnar Maple",
+    "botanical_name": "Acer rubrum 'Armstrong'",
+    "dba_2020": "3.5",
+    "planted": "",
+    "note": ""
+  },
+  {
+    "id": "NE-8",
+    "common_name": "Littleleaf Linden",
+    "botanical_name": "Tillia cordata",
+    "dba_2020": "15",
+    "planted": "",
+    "note": ""
+  },
+  {
+    "id": "NE-9",
+    "common_name": "Redbud",
+    "botanical_name": "Cercis canadensis",
+    "dba_2020": "",
+    "planted": "",
+    "note": ""
+  },
+  {
+    "id": "NE-10",
+    "common_name": "Littleleaf Linden",
+    "botanical_name": "Tillia cordata",
+    "dba_2020": "15",
+    "planted": "",
+    "note": ""
+  },
+  {
+    "id": "NE-11",
+    "common_name": "",
+    "botanical_name": "",
+    "dba_2020": "",
+    "planted": "",
+    "note": ""
+  },
+  {
+    "id": "NE-12",
+    "common_name": "",
+    "botanical_name": "",
+    "dba_2020": "",
+    "planted": "",
+    "note": ""
+  },
+  {
+    "id": "NE-13",
+    "common_name": "Green Giant Arbotvitaea",
+    "botanical_name": "Thuja plicata 'Green Giant'",
+    "dba_2020": "",
+    "planted": "2019",
+    "note": ""
+  },
+  {
+    "id": "NE-14",
+    "common_name": "Honey Locust",
+    "botanical_name": "Gleditsia triacanthus",
+    "dba_2020": "14",
+    "planted": "",
+    "note": ""
+  },
+  {
+    "id": "NE-15",
+    "common_name": "Crape Myrtle",
+    "botanical_name": "Lagarstroemia sp.",
+    "dba_2020": "",
+    "planted": "2020",
+    "note": ""
+  },
+  {
+    "id": "NE-16",
+    "common_name": "Crape Myrtle",
+    "botanical_name": "Lagarstroemia sp.",
+    "dba_2020": "",
+    "planted": "2020",
+    "note": ""
+  },
+  {
+    "id": "NE-17",
+    "common_name": "Crape Myrtle",
+    "botanical_name": "Lagarstroemia sp.",
+    "dba_2020": "",
+    "planted": "2020",
+    "note": ""
+  },
+  {
+    "id": "NE-18",
+    "common_name": "Crape Myrtle",
+    "botanical_name": "Lagarstroemia sp.",
+    "dba_2020": "",
+    "planted": "2020",
+    "note": ""
+  },
+  {
+    "id": "NE-19",
+    "common_name": "Pagoda",
+    "botanical_name": "Styphnolobium japonicum",
+    "dba_2020": "22",
+    "planted": "",
+    "note": ""
+  },
+  {
+    "id": "NE-20",
+    "common_name": "Weeping Hemlock",
+    "botanical_name": "Tsuga canadensis 'Pendula'",
+    "dba_2020": "7'",
+    "planted": "2017",
+    "note": ""
+  },
+  {
+    "id": "NE-21",
+    "common_name": "",
+    "botanical_name": "",
+    "dba_2020": "",
+    "planted": "",
+    "note": ""
+  },
+  {
+    "id": "NE-22",
+    "common_name": "",
+    "botanical_name": "",
+    "dba_2020": "",
+    "planted": "",
+    "note": ""
+  },
+  {
+    "id": "NE-23",
+    "common_name": "Flowering Crabapple",
+    "botanical_name": "Malus floribunda",
+    "dba_2020": "4",
+    "planted": "",
+    "note": ""
+  },
+  {
+    "id": "NE-24",
+    "common_name": "Flowering Crabapple",
+    "botanical_name": "Malus floribunda",
+    "dba_2020": "4",
+    "planted": "",
+    "note": ""
+  },
+  {
+    "id": "NE-25",
+    "common_name": "Flowering Crabapple",
+    "botanical_name": "Malus floribunda",
+    "dba_2020": "4",
+    "planted": "",
+    "note": ""
+  },
+  {
+    "id": "NE-26",
+    "common_name": "Heritage River Birch",
+    "botanical_name": "Betula nigra 'Heritage'",
+    "dba_2020": "",
+    "planted": "",
+    "note": ""
+  },
+  {
+    "id": "NE-27",
+    "common_name": "Canadian Hemlock",
+    "botanical_name": "Tsuga canadensis",
+    "dba_2020": "",
+    "planted": "2023",
+    "note": ""
+  },
+  {
+    "id": "NE-28",
+    "common_name": "Canadian Hemlock",
+    "botanical_name": "Tsuga canadensis",
+    "dba_2020": "",
+    "planted": "",
+    "note": ""
+  },
+  {
+    "id": "NE-29",
+    "common_name": "Canadian Hemlock",
+    "botanical_name": "Tsuga canadensis",
+    "dba_2020": "",
+    "planted": "2023",
+    "note": ""
+  },
+  {
+    "id": "NE-30",
+    "common_name": "Zelcova",
+    "botanical_name": "Zelcova",
+    "dba_2020": "26",
+    "planted": "",
+    "note": ""
+  },
+  {
+    "id": "NE-31",
+    "common_name": "",
+    "botanical_name": "",
+    "dba_2020": "",
+    "planted": "",
+    "note": ""
+  },
+  {
+    "id": "NE-32",
+    "common_name": "",
+    "botanical_name": "",
+    "dba_2020": "",
+    "planted": "",
+    "note": ""
+  },
+  {
+    "id": "NE-33",
+    "common_name": "Hornbeam",
+    "botanical_name": "Carpinus betlus 'Fastigata'",
+    "dba_2020": "",
+    "planted": "2023 Terrain",
+    "note": ""
+  },
+  {
+    "id": "NE-34",
+    "common_name": "Hornbeam",
+    "botanical_name": "Carpinus betlus 'Fastigata'",
+    "dba_2020": "",
+    "planted": "2023 Terrain",
+    "note": ""
+  },
+  {
+    "id": "NE-35",
+    "common_name": "Hornbeam",
+    "botanical_name": "Carpinus betlus 'Fastigata'",
+    "dba_2020": "",
+    "planted": "2023 Terrain",
+    "note": ""
+  },
+  {
+    "id": "NE-36",
+    "common_name": "Oak",
+    "botanical_name": "Quercus",
+    "dba_2020": "",
+    "planted": "2023 Terrain",
+    "note": ""
+  },
+  {
+    "id": "NE-37",
+    "common_name": "Oak",
+    "botanical_name": "Quercus",
+    "dba_2020": "",
+    "planted": "2023 Terrain",
+    "note": ""
+  },
+  {
+    "id": "NE-38",
+    "common_name": "Oak",
+    "botanical_name": "Quercus",
+    "dba_2020": "",
+    "planted": "2023 Terrain",
+    "note": ""
+  },
+  {
+    "id": "NE-39",
+    "common_name": "London Plane",
+    "botanical_name": "Platanus acerifolia",
+    "dba_2020": "15",
+    "planted": "",
+    "note": ""
+  },
+  {
+    "id": "NE-40",
+    "common_name": "Paperbark Maple",
+    "botanical_name": "Acer griseum",
+    "dba_2020": "13",
+    "planted": "",
+    "note": ""
+  },
+  {
+    "id": "NE-41",
+    "common_name": "",
+    "botanical_name": "",
+    "dba_2020": "",
+    "planted": "",
+    "note": ""
+  },
+  {
+    "id": "NE-42",
+    "common_name": "",
+    "botanical_name": "",
+    "dba_2020": "",
+    "planted": "",
+    "note": ""
+  },
+  {
+    "id": "NE-43",
+    "common_name": "Flowering Crabapple",
+    "botanical_name": "Malus floribunda",
+    "dba_2020": "",
+    "planted": "",
+    "note": ""
+  },
+  {
+    "id": "NE-44",
+    "common_name": "London Plane",
+    "botanical_name": "Platanus acerifolia",
+    "dba_2020": "18",
+    "planted": "",
+    "note": ""
+  },
+  {
+    "id": "NE-45",
+    "common_name": "Flowering Crabapple",
+    "botanical_name": "Malus floribunda",
+    "dba_2020": "",
+    "planted": "",
+    "note": ""
+  },
+  {
+    "id": "NE-46",
+    "common_name": "Redbud",
+    "botanical_name": "Cercis canadensis",
+    "dba_2020": "",
+    "planted": "",
+    "note": ""
+  },
+  {
+    "id": "NE-47",
+    "common_name": "Japanese Maple",
+    "botanical_name": "Acer palmatum 'Bloodgood'",
+    "dba_2020": "",
+    "planted": "2020",
+    "note": ""
+  },
+  {
+    "id": "NE-48",
+    "common_name": "London Plane",
+    "botanical_name": "Platanus acerifolia",
+    "dba_2020": "15",
+    "planted": "",
+    "note": ""
+  },
+  {
+    "id": "NE-49",
+    "common_name": "London Plane",
+    "botanical_name": "Platanus acerifolia",
+    "dba_2020": "18",
+    "planted": "",
+    "note": ""
+  },
+  {
+    "id": "NE-50",
+    "common_name": "Rutgers Dogwood",
+    "botanical_name": "Cornus rutgersensis",
+    "dba_2020": "",
+    "planted": "2022",
+    "note": ""
+  },
+  {
+    "id": "NE-51",
+    "common_name": "",
+    "botanical_name": "",
+    "dba_2020": "",
+    "planted": "",
+    "note": ""
+  },
+  {
+    "id": "NE-52",
+    "common_name": "Rutgers Dogwood",
+    "botanical_name": "Cornus rutgersensis",
+    "dba_2020": "",
+    "planted": "2022",
+    "note": ""
+  },
+  {
+    "id": "NE-53",
+    "common_name": "London Plane",
+    "botanical_name": "Platanus acerifolia",
+    "dba_2020": "16",
+    "planted": "",
+    "note": ""
+  },
+  {
+    "id": "NE-54",
+    "common_name": "Rutgers Dogwood",
+    "botanical_name": "Cornus rutgersensis",
+    "dba_2020": "",
+    "planted": "2022",
+    "note": ""
+  },
+  {
+    "id": "NE-55",
+    "common_name": "Weeping Norway Spruce",
+    "botanical_name": "Picea abies 'Pendula'",
+    "dba_2020": "",
+    "planted": "",
+    "note": ""
+  },
+  {
+    "id": "NE-56",
+    "common_name": "Weeping White Pine",
+    "botanical_name": "Pinus strobus 'Pendula'",
+    "dba_2020": "",
+    "planted": "",
+    "note": ""
+  },
+  {
+    "id": "NE-57",
+    "common_name": "Nellie Stevens Holly",
+    "botanical_name": "Ilex 'Nellie Stevens'",
+    "dba_2020": "",
+    "planted": "",
+    "note": ""
+  },
+  {
+    "id": "NE-58",
+    "common_name": "Hornbeam",
+    "botanical_name": "Carpinus betlus 'Fastigata'",
+    "dba_2020": "",
+    "planted": "2023 Terrain",
+    "note": ""
+  },
+  {
+    "id": "NE-59",
+    "common_name": "Hornbeam",
+    "botanical_name": "Carpinus betlus 'Fastigata'",
+    "dba_2020": "",
+    "planted": "2023 Terrain",
+    "note": ""
+  },
+  {
+    "id": "NE-60",
+    "common_name": "",
+    "botanical_name": "",
+    "dba_2020": "",
+    "planted": "",
+    "note": ""
+  },
+  {
+    "id": "NE-61",
+    "common_name": "",
+    "botanical_name": "",
+    "dba_2020": "",
+    "planted": "",
+    "note": ""
+  },
+  {
+    "id": "NE-62",
+    "common_name": "",
+    "botanical_name": "",
+    "dba_2020": "",
+    "planted": "",
+    "note": ""
+  },
+  {
+    "id": "NE-63",
+    "common_name": "???",
+    "botanical_name": "",
+    "dba_2020": "",
+    "planted": "",
+    "note": ""
+  },
+  {
+    "id": "NE-64",
+    "common_name": "Honey Locust",
+    "botanical_name": "Gleditsia triacanthus",
+    "dba_2020": "18",
+    "planted": "",
+    "note": ""
+  },
+  {
+    "id": "NE-65",
+    "common_name": "Nellie Stevens Holly",
+    "botanical_name": "Ilex 'Nellie Stevens'",
+    "dba_2020": "",
+    "planted": "",
+    "note": ""
+  },
+  {
+    "id": "NE-66",
+    "common_name": "Apple",
+    "botanical_name": "Malus 'Spec'",
+    "dba_2020": "",
+    "planted": "",
+    "note": ""
+  },
+  {
+    "id": "NE-67",
+    "common_name": "Nellie Stevens Holly",
+    "botanical_name": "Ilex 'Nellie Stevens'",
+    "dba_2020": "",
+    "planted": "",
+    "note": ""
+  },
+  {
+    "id": "NE-68",
+    "common_name": "Armstrong Maple",
+    "botanical_name": "Acer rubrum 'Armstrong Gold'",
+    "dba_2020": "",
+    "planted": "2023 Terrain",
+    "note": ""
+  },
+  {
+    "id": "NE-69",
+    "common_name": "Armstrong Maple",
+    "botanical_name": "Acer rubrum 'Armstrong Gold'",
+    "dba_2020": "",
+    "planted": "2023 Terrain",
+    "note": ""
+  },
+  {
+    "id": "NE-70",
+    "common_name": "Armstrong Maple",
+    "botanical_name": "Acer rubrum 'Armstrong Gold'",
+    "dba_2020": "",
+    "planted": "2023 Terrain",
+    "note": ""
+  },
+  {
+    "id": "NE-71",
+    "common_name": "Sweetgum",
+    "botanical_name": "Liquidambar styraciflua 'Slender Silhouette'",
+    "dba_2020": "",
+    "planted": "2023 Terrain",
+    "note": ""
+  }
+]

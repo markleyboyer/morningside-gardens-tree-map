@@ -1,0 +1,952 @@
+{
+  "Acer griseum": {
+    "trefle_id": 137857,
+    "common_name": "Paperbark maple",
+    "genus": "Acer",
+    "species": null,
+    "family": "Sapindaceae",
+    "min_height_cm": null,
+    "max_height_cm": null,
+    "min_temp_c": null,
+    "bloom_months": null,
+    "slug": "acer-griseum",
+    "tree_ids": [
+      "NE-40"
+    ]
+  },
+  "Acer palmatum": {
+    "trefle_id": 137927,
+    "common_name": "Japanese maple",
+    "genus": "Acer",
+    "species": null,
+    "family": "Sapindaceae",
+    "min_height_cm": null,
+    "max_height_cm": null,
+    "min_temp_c": null,
+    "bloom_months": null,
+    "slug": "acer-palmatum",
+    "tree_ids": [
+      "NE-47",
+      "NW-35",
+      "SE-5",
+      "SW-30"
+    ]
+  },
+  "Acer platanoides": {
+    "trefle_id": 137945,
+    "common_name": "Norway maple",
+    "genus": "Acer",
+    "species": null,
+    "family": "Sapindaceae",
+    "min_height_cm": null,
+    "max_height_cm": null,
+    "min_temp_c": null,
+    "bloom_months": null,
+    "slug": "acer-platanoides",
+    "tree_ids": [
+      "SW-87"
+    ]
+  },
+  "Acer rubrum": {
+    "trefle_id": 137958,
+    "common_name": "Red maple",
+    "genus": "Acer",
+    "species": null,
+    "family": "Sapindaceae",
+    "min_height_cm": null,
+    "max_height_cm": null,
+    "min_temp_c": null,
+    "bloom_months": null,
+    "slug": "acer-rubrum",
+    "tree_ids": [
+      "NE-7",
+      "NE-68",
+      "NE-69",
+      "NE-70",
+      "NW-6"
+    ]
+  },
+  "Aesculus carnea": {
+    "error": "no_match",
+    "tree_ids": [
+      "SE-19"
+    ]
+  },
+  "Amelanchier canadensis": {
+    "trefle_id": 265175,
+    "common_name": "Juneberry",
+    "genus": "Amelanchier",
+    "species": null,
+    "family": "Rosaceae",
+    "min_height_cm": null,
+    "max_height_cm": null,
+    "min_temp_c": null,
+    "bloom_months": null,
+    "slug": "amelanchier-canadensis",
+    "tree_ids": [
+      "NW-2",
+      "NW-26",
+      "NW-34",
+      "SW-77"
+    ]
+  },
+  "Betula nigra": {
+    "trefle_id": 90298,
+    "common_name": "Red birch",
+    "genus": "Betula",
+    "species": null,
+    "family": "Betulaceae",
+    "min_height_cm": null,
+    "max_height_cm": null,
+    "min_temp_c": null,
+    "bloom_months": null,
+    "slug": "betula-nigra",
+    "tree_ids": [
+      "NE-26",
+      "SW-84",
+      "SW-85",
+      "SW-86"
+    ]
+  },
+  "Carpinus betlus": {
+    "trefle_id": 213797,
+    "common_name": "European hornbeam",
+    "genus": "Carpinus",
+    "species": null,
+    "family": "Betulaceae",
+    "min_height_cm": null,
+    "max_height_cm": null,
+    "min_temp_c": null,
+    "bloom_months": null,
+    "slug": "carpinus-betulus",
+    "tree_ids": [
+      "NE-33",
+      "NE-34",
+      "NE-35",
+      "NE-58",
+      "NE-59",
+      "SW-35",
+      "SW-36",
+      "SW-37"
+    ]
+  },
+  "Carpinus betulus fastigiata": {
+    "trefle_id": 213797,
+    "common_name": "European hornbeam",
+    "genus": "Carpinus",
+    "species": null,
+    "family": "Betulaceae",
+    "min_height_cm": null,
+    "max_height_cm": null,
+    "min_temp_c": null,
+    "bloom_months": null,
+    "slug": "carpinus-betulus",
+    "tree_ids": [
+      "SE-18"
+    ]
+  },
+  "Carya ovata": {
+    "trefle_id": 157387,
+    "common_name": "Shagbark hickory",
+    "genus": "Carya",
+    "species": null,
+    "family": "Juglandaceae",
+    "min_height_cm": null,
+    "max_height_cm": null,
+    "min_temp_c": null,
+    "bloom_months": null,
+    "slug": "carya-ovata",
+    "tree_ids": [
+      "NE-5",
+      "NW-23",
+      "SE-30"
+    ]
+  },
+  "Cedrus aglaucitlantica": {
+    "error": "no_match",
+    "tree_ids": [
+      "SW-56"
+    ]
+  },
+  "Cedrus atlantica glauca": {
+    "trefle_id": 158382,
+    "common_name": "Atlas cedar",
+    "genus": "Cedrus",
+    "species": null,
+    "family": "Pinaceae",
+    "min_height_cm": null,
+    "max_height_cm": null,
+    "min_temp_c": null,
+    "bloom_months": null,
+    "slug": "cedrus-atlantica",
+    "tree_ids": [
+      "SE-33"
+    ]
+  },
+  "Cedrus atlantica glauca pendula": {
+    "trefle_id": 158382,
+    "common_name": "Atlas cedar",
+    "genus": "Cedrus",
+    "species": null,
+    "family": "Pinaceae",
+    "min_height_cm": null,
+    "max_height_cm": null,
+    "min_temp_c": null,
+    "bloom_months": null,
+    "slug": "cedrus-atlantica",
+    "tree_ids": [
+      "SE-37"
+    ]
+  },
+  "Cercis canadensis": {
+    "trefle_id": 38974,
+    "common_name": "Judastree",
+    "genus": "Cercis",
+    "species": null,
+    "family": "Fabaceae",
+    "min_height_cm": null,
+    "max_height_cm": null,
+    "min_temp_c": null,
+    "bloom_months": null,
+    "slug": "cercis-canadensis",
+    "tree_ids": [
+      "NE-9",
+      "NE-46",
+      "SE-32",
+      "SW-3",
+      "SW-48"
+    ]
+  },
+  "Chamaecyparis Nootkatensis": {
+    "trefle_id": 432134,
+    "common_name": null,
+    "genus": "Callitropsis",
+    "species": null,
+    "family": "Cupressaceae",
+    "min_height_cm": null,
+    "max_height_cm": null,
+    "min_temp_c": null,
+    "bloom_months": null,
+    "slug": "callitropsis-nootkatensis",
+    "tree_ids": [
+      "SE-31"
+    ]
+  },
+  "Chamaecyparis nootkatensis": {
+    "trefle_id": 432134,
+    "common_name": null,
+    "genus": "Callitropsis",
+    "species": null,
+    "family": "Cupressaceae",
+    "min_height_cm": null,
+    "max_height_cm": null,
+    "min_temp_c": null,
+    "bloom_months": null,
+    "slug": "callitropsis-nootkatensis",
+    "tree_ids": [
+      "NW-1",
+      "SW-14"
+    ]
+  },
+  "Chamaecyparis obtusa": {
+    "trefle_id": 159797,
+    "common_name": "Hinoki false cypress",
+    "genus": "Chamaecyparis",
+    "species": null,
+    "family": "Cupressaceae",
+    "min_height_cm": null,
+    "max_height_cm": null,
+    "min_temp_c": null,
+    "bloom_months": null,
+    "slug": "chamaecyparis-obtusa",
+    "tree_ids": [
+      "SE-1"
+    ]
+  },
+  "Chameacyparis obtusa": {
+    "trefle_id": 159797,
+    "common_name": "Hinoki false cypress",
+    "genus": "Chamaecyparis",
+    "species": null,
+    "family": "Cupressaceae",
+    "min_height_cm": null,
+    "max_height_cm": null,
+    "min_temp_c": null,
+    "bloom_months": null,
+    "slug": "chamaecyparis-obtusa",
+    "tree_ids": [
+      "SE-53"
+    ]
+  },
+  "Cladrastris kentuckyea": {
+    "error": "no_match",
+    "tree_ids": [
+      "SW-89"
+    ]
+  },
+  "Conrus kousa": {
+    "trefle_id": 243035,
+    "common_name": "Japanese flowering dogwood",
+    "genus": "Cornus",
+    "species": null,
+    "family": "Cornaceae",
+    "min_height_cm": null,
+    "max_height_cm": null,
+    "min_temp_c": null,
+    "bloom_months": null,
+    "slug": "cornus-kousa",
+    "tree_ids": [
+      "NE-4"
+    ]
+  },
+  "Cornus alternifolea": {
+    "trefle_id": 243009,
+    "common_name": "Alternate-leaf dogwood",
+    "genus": "Cornus",
+    "species": null,
+    "family": "Cornaceae",
+    "min_height_cm": null,
+    "max_height_cm": null,
+    "min_temp_c": null,
+    "bloom_months": null,
+    "slug": "cornus-alternifolia",
+    "tree_ids": [
+      "SW-39",
+      "SW-44",
+      "SW-45",
+      "SW-46",
+      "SW-50"
+    ]
+  },
+  "Cornus alternifolia": {
+    "trefle_id": 243009,
+    "common_name": "Alternate-leaf dogwood",
+    "genus": "Cornus",
+    "species": null,
+    "family": "Cornaceae",
+    "min_height_cm": null,
+    "max_height_cm": null,
+    "min_temp_c": null,
+    "bloom_months": null,
+    "slug": "cornus-alternifolia",
+    "tree_ids": [
+      "SW-92",
+      "SW-93"
+    ]
+  },
+  "Cornus kousa": {
+    "trefle_id": 243035,
+    "common_name": "Japanese flowering dogwood",
+    "genus": "Cornus",
+    "species": null,
+    "family": "Cornaceae",
+    "min_height_cm": null,
+    "max_height_cm": null,
+    "min_temp_c": null,
+    "bloom_months": null,
+    "slug": "cornus-kousa",
+    "tree_ids": [
+      "NW-60",
+      "SE-36"
+    ]
+  },
+  "Cornus rutgersensis": {
+    "error": "no_match",
+    "tree_ids": [
+      "NE-50",
+      "NE-52",
+      "NE-54"
+    ]
+  },
+  "Cotinus coggygria": {
+    "trefle_id": 166460,
+    "common_name": "Fustet",
+    "genus": "Cotinus",
+    "species": null,
+    "family": "Anacardiaceae",
+    "min_height_cm": null,
+    "max_height_cm": null,
+    "min_temp_c": null,
+    "bloom_months": null,
+    "slug": "cotinus-coggygria",
+    "tree_ids": [
+      "SW-26"
+    ]
+  },
+  "Crataegus mollis": {
+    "trefle_id": 265400,
+    "common_name": "Arnold hawthorn",
+    "genus": "Crataegus",
+    "species": null,
+    "family": "Rosaceae",
+    "min_height_cm": null,
+    "max_height_cm": null,
+    "min_temp_c": null,
+    "bloom_months": null,
+    "slug": "crataegus-mollis",
+    "tree_ids": [
+      "SE-8"
+    ]
+  },
+  "Crataegus sp.": {
+    "trefle_id": 265911,
+    "common_name": null,
+    "genus": "Crataegus",
+    "species": null,
+    "family": "Rosaceae",
+    "min_height_cm": null,
+    "max_height_cm": null,
+    "min_temp_c": null,
+    "bloom_months": null,
+    "slug": "crataegus-spes-aestatum",
+    "tree_ids": [
+      "NW-40",
+      "NW-43",
+      "NW-50",
+      "NW-55",
+      "NW-56",
+      "NW-57",
+      "NW-70",
+      "SW-2",
+      "SW-4",
+      "SW-5"
+    ]
+  },
+  "Cryptomeria japonica": {
+    "trefle_id": 167868,
+    "common_name": "Japanese red-cedar",
+    "genus": "Cryptomeria",
+    "species": null,
+    "family": "Cupressaceae",
+    "min_height_cm": null,
+    "max_height_cm": null,
+    "min_temp_c": null,
+    "bloom_months": null,
+    "slug": "cryptomeria-japonica",
+    "tree_ids": [
+      "NW-45"
+    ]
+  },
+  "Euonymus alata": {
+    "trefle_id": 183703,
+    "common_name": "Burningbush",
+    "genus": "Euonymus",
+    "species": null,
+    "family": "Celastraceae",
+    "min_height_cm": null,
+    "max_height_cm": null,
+    "min_temp_c": null,
+    "bloom_months": null,
+    "slug": "euonymus-alatus",
+    "tree_ids": [
+      "SW-83"
+    ]
+  },
+  "Fagus sylvatica": {
+    "trefle_id": 257312,
+    "common_name": "Beech",
+    "genus": "Fagus",
+    "species": null,
+    "family": "Fagaceae",
+    "min_height_cm": null,
+    "max_height_cm": null,
+    "min_temp_c": null,
+    "bloom_months": null,
+    "slug": "fagus-sylvatica",
+    "tree_ids": [
+      "NW-8",
+      "SW-59"
+    ]
+  },
+  "Gleditsia triacanthus": {
+    "error": "no_match",
+    "tree_ids": [
+      "NE-14",
+      "NE-64",
+      "NW-10",
+      "NW-16",
+      "NW-44",
+      "NW-47",
+      "NW-48",
+      "NW-49",
+      "SE-4",
+      "SE-6",
+      "SE-7",
+      "SE-9",
+      "SE-15",
+      "SE-27",
+      "SE-28",
+      "SE-29",
+      "SE-35",
+      "SE-43",
+      "SE-49",
+      "SW-28",
+      "SW-31",
+      "SW-32",
+      "SW-38",
+      "SW-40",
+      "SW-68",
+      "SW-69"
+    ]
+  },
+  "Gymno-cladus dioicus": {
+    "error": "no_match",
+    "tree_ids": [
+      "SE-50"
+    ]
+  },
+  "Hamamelis virginiana": {
+    "trefle_id": 277534,
+    "common_name": "Witch-hazel",
+    "genus": "Hamamelis",
+    "species": null,
+    "family": "Hamamelidaceae",
+    "min_height_cm": null,
+    "max_height_cm": null,
+    "min_temp_c": null,
+    "bloom_months": null,
+    "slug": "hamamelis-virginiana",
+    "tree_ids": [
+      "SE-16"
+    ]
+  },
+  "Hinoki Cypress": {
+    "trefle_id": 159797,
+    "common_name": "Hinoki false cypress",
+    "genus": "Chamaecyparis",
+    "species": null,
+    "family": "Cupressaceae",
+    "min_height_cm": null,
+    "max_height_cm": null,
+    "min_temp_c": null,
+    "bloom_months": null,
+    "slug": "chamaecyparis-obtusa",
+    "tree_ids": [
+      "SE-34"
+    ]
+  },
+  "Ilex aquipernyi": {
+    "error": "no_match",
+    "tree_ids": [
+      "NW-13",
+      "NW-39",
+      "SW-47"
+    ]
+  },
+  "Lagarstroemia sp.": {
+    "error": "no_match",
+    "tree_ids": [
+      "NE-15",
+      "NE-16",
+      "NE-17",
+      "NE-18",
+      "NW-67",
+      "NW-68",
+      "SW-19",
+      "SW-20",
+      "SW-23",
+      "SW-24",
+      "SW-27"
+    ]
+  },
+  "Liquidambar styraciflua": {
+    "trefle_id": 97657,
+    "common_name": "Alligator-wood",
+    "genus": "Liquidambar",
+    "species": null,
+    "family": "Altingiaceae",
+    "min_height_cm": null,
+    "max_height_cm": null,
+    "min_temp_c": null,
+    "bloom_months": null,
+    "slug": "liquidambar-styraciflua",
+    "tree_ids": [
+      "NE-71",
+      "NW-25",
+      "SW-8"
+    ]
+  },
+  "Magnolia soulangiana": {
+    "trefle_id": 280444,
+    "common_name": "Chinese magnolia",
+    "genus": "Magnolia",
+    "species": null,
+    "family": "Magnoliaceae",
+    "min_height_cm": null,
+    "max_height_cm": null,
+    "min_temp_c": null,
+    "bloom_months": null,
+    "slug": "magnolia-x-soulangeana",
+    "tree_ids": [
+      "SE-20",
+      "SE-21",
+      "SE-23",
+      "SE-48",
+      "SW-79"
+    ]
+  },
+  "Magnolia stellate": {
+    "trefle_id": 59123,
+    "common_name": "Star magnolia",
+    "genus": "Magnolia",
+    "species": null,
+    "family": "Magnoliaceae",
+    "min_height_cm": null,
+    "max_height_cm": null,
+    "min_temp_c": null,
+    "bloom_months": null,
+    "slug": "magnolia-stellata",
+    "tree_ids": [
+      "NW-15"
+    ]
+  },
+  "Malas sp.": {
+    "error": "no_match",
+    "tree_ids": [
+      "NW-4"
+    ]
+  },
+  "Malus floribunda": {
+    "trefle_id": 436428,
+    "common_name": "Japanese crab",
+    "genus": "Malus",
+    "species": null,
+    "family": "Rosaceae",
+    "min_height_cm": null,
+    "max_height_cm": null,
+    "min_temp_c": null,
+    "bloom_months": null,
+    "slug": "malus-x-floribunda",
+    "tree_ids": [
+      "NE-23",
+      "NE-24",
+      "NE-25",
+      "NE-43",
+      "NE-45",
+      "SE-24",
+      "SE-25",
+      "SE-26",
+      "SE-44",
+      "SE-45",
+      "SE-46",
+      "SW-74"
+    ]
+  },
+  "Metasequoia glypto-stroboides": {
+    "error": "no_match",
+    "tree_ids": [
+      "SW-18"
+    ]
+  },
+  "Picea abies": {
+    "trefle_id": 127388,
+    "common_name": "Common spruce",
+    "genus": "Picea",
+    "species": null,
+    "family": "Pinaceae",
+    "min_height_cm": null,
+    "max_height_cm": null,
+    "min_temp_c": null,
+    "bloom_months": null,
+    "slug": "picea-abies",
+    "tree_ids": [
+      "NE-2",
+      "NE-55"
+    ]
+  },
+  "Picea punguns": {
+    "trefle_id": 127541,
+    "common_name": "Colorado blue spruce",
+    "genus": "Picea",
+    "species": null,
+    "family": "Pinaceae",
+    "min_height_cm": null,
+    "max_height_cm": null,
+    "min_temp_c": null,
+    "bloom_months": null,
+    "slug": "picea-pungens",
+    "tree_ids": [
+      "SE-54"
+    ]
+  },
+  "Pinus bungeana": {
+    "trefle_id": 127463,
+    "common_name": "Lacebark pine",
+    "genus": "Pinus",
+    "species": null,
+    "family": "Pinaceae",
+    "min_height_cm": null,
+    "max_height_cm": null,
+    "min_temp_c": null,
+    "bloom_months": null,
+    "slug": "pinus-bungeana",
+    "tree_ids": [
+      "SW-80"
+    ]
+  },
+  "Pinus strobus": {
+    "trefle_id": 127287,
+    "common_name": "Weymouth pine",
+    "genus": "Pinus",
+    "species": null,
+    "family": "Pinaceae",
+    "min_height_cm": null,
+    "max_height_cm": null,
+    "min_temp_c": null,
+    "bloom_months": null,
+    "slug": "pinus-strobus",
+    "tree_ids": [
+      "NE-56"
+    ]
+  },
+  "Pinus thungbergii": {
+    "trefle_id": 127305,
+    "common_name": "Black pine",
+    "genus": "Pinus",
+    "species": null,
+    "family": "Pinaceae",
+    "min_height_cm": null,
+    "max_height_cm": null,
+    "min_temp_c": null,
+    "bloom_months": null,
+    "slug": "pinus-thunbergii",
+    "tree_ids": [
+      "SW-55"
+    ]
+  },
+  "Platanus acerifolia": {
+    "trefle_id": 287885,
+    "common_name": "London planetree",
+    "genus": "Platanus",
+    "species": null,
+    "family": "Platanaceae",
+    "min_height_cm": null,
+    "max_height_cm": null,
+    "min_temp_c": null,
+    "bloom_months": null,
+    "slug": "platanus-acerifolia",
+    "tree_ids": [
+      "NE-39",
+      "NE-44",
+      "NE-48",
+      "NE-49",
+      "NE-53",
+      "NW-27",
+      "NW-28",
+      "NW-29",
+      "NW-30",
+      "NW-33",
+      "NW-36",
+      "NW-37",
+      "NW-38",
+      "NW-65",
+      "NW-66",
+      "NW-69",
+      "SE-47",
+      "SW-29",
+      "SW-53",
+      "SW-54"
+    ]
+  },
+  "Prunua cistena": {
+    "trefle_id": 265106,
+    "common_name": "Dwarf red-leaf plum",
+    "genus": "Prunus",
+    "species": null,
+    "family": "Rosaceae",
+    "min_height_cm": null,
+    "max_height_cm": null,
+    "min_temp_c": null,
+    "bloom_months": null,
+    "slug": "prunus-x-cistena",
+    "tree_ids": [
+      "NW-53",
+      "NW-54"
+    ]
+  },
+  "Prunus cerasifera": {
+    "trefle_id": 265239,
+    "common_name": "Cherry plum",
+    "genus": "Prunus",
+    "species": null,
+    "family": "Rosaceae",
+    "min_height_cm": null,
+    "max_height_cm": null,
+    "min_temp_c": null,
+    "bloom_months": null,
+    "slug": "prunus-cerasifera",
+    "tree_ids": [
+      "SW-58"
+    ]
+  },
+  "Prunus serotina": {
+    "trefle_id": 263916,
+    "common_name": "Rum cherry",
+    "genus": "Prunus",
+    "species": null,
+    "family": "Rosaceae",
+    "min_height_cm": null,
+    "max_height_cm": null,
+    "min_temp_c": null,
+    "bloom_months": null,
+    "slug": "prunus-serotina",
+    "tree_ids": [
+      "SE-14"
+    ]
+  },
+  "Prunus serrulata": {
+    "trefle_id": 263531,
+    "common_name": "Japanese cherry",
+    "genus": "Prunus",
+    "species": null,
+    "family": "Rosaceae",
+    "min_height_cm": null,
+    "max_height_cm": null,
+    "min_temp_c": null,
+    "bloom_months": null,
+    "slug": "prunus-serrulata",
+    "tree_ids": [
+      "NW-63",
+      "SW-16",
+      "SW-17",
+      "SW-75",
+      "SW-76"
+    ]
+  },
+  "Prunus subhertela pendula": {
+    "error": "no_match",
+    "tree_ids": [
+      "SW-64"
+    ]
+  },
+  "Pyrus calleryana": {
+    "trefle_id": 265815,
+    "common_name": "Callery pear",
+    "genus": "Pyrus",
+    "species": null,
+    "family": "Rosaceae",
+    "min_height_cm": null,
+    "max_height_cm": null,
+    "min_temp_c": null,
+    "bloom_months": null,
+    "slug": "pyrus-calleryana",
+    "tree_ids": [
+      "NW-17",
+      "SW-33"
+    ]
+  },
+  "Quercus alba": {
+    "trefle_id": 76507,
+    "common_name": "Stave oak",
+    "genus": "Quercus",
+    "species": null,
+    "family": "Fagaceae",
+    "min_height_cm": null,
+    "max_height_cm": null,
+    "min_temp_c": null,
+    "bloom_months": null,
+    "slug": "quercus-alba",
+    "tree_ids": [
+      "NW-24",
+      "SW-78"
+    ]
+  },
+  "Quercus coccinea": {
+    "trefle_id": 76660,
+    "common_name": "Scarlet oak",
+    "genus": "Quercus",
+    "species": null,
+    "family": "Fagaceae",
+    "min_height_cm": null,
+    "max_height_cm": null,
+    "min_temp_c": null,
+    "bloom_months": null,
+    "slug": "quercus-coccinea",
+    "tree_ids": [
+      "SW-70"
+    ]
+  },
+  "Quercus rubrum": {
+    "error": "no_match",
+    "tree_ids": [
+      "SW-91"
+    ]
+  },
+  "Quesrcus palustrus": {
+    "error": "no_match",
+    "tree_ids": [
+      "SW-57",
+      "SW-63"
+    ]
+  },
+  "Styphnolobium japonicum": {
+    "trefle_id": 42193,
+    "common_name": "Japanese pagoda-tree",
+    "genus": "Styphnolobium",
+    "species": null,
+    "family": "Fabaceae",
+    "min_height_cm": null,
+    "max_height_cm": null,
+    "min_temp_c": null,
+    "bloom_months": null,
+    "slug": "styphnolobium-japonicum",
+    "tree_ids": [
+      "NE-19",
+      "SW-43",
+      "SW-49"
+    ]
+  },
+  "Thuja plicata": {
+    "trefle_id": 107544,
+    "common_name": "British columbia red cedar",
+    "genus": "Thuja",
+    "species": null,
+    "family": "Cupressaceae",
+    "min_height_cm": null,
+    "max_height_cm": null,
+    "min_temp_c": null,
+    "bloom_months": null,
+    "slug": "thuja-plicata",
+    "tree_ids": [
+      "NE-13"
+    ]
+  },
+  "Tillia cordata": {
+    "error": "429 Client Error: Too Many Requests for url: https://trefle.io/api/v1/plants/search?q=Tillia+cordata&token=usr-UU-rkSweU3LcB7m7PQdltwLOipn4U5WzKGSlpFo3meE",
+    "tree_ids": [
+      "NE-6",
+      "NE-8",
+      "NE-10",
+      "NW-3",
+      "NW-5",
+      "NW-7",
+      "NW-9",
+      "SW-6",
+      "SW-7",
+      "SW-10",
+      "SW-13",
+      "SW-15"
+    ]
+  },
+  "Tsuga canadensis": {
+    "error": "429 Client Error: Too Many Requests for url: https://trefle.io/api/v1/plants/search?q=Tsuga+canadensis&token=usr-UU-rkSweU3LcB7m7PQdltwLOipn4U5WzKGSlpFo3meE",
+    "tree_ids": [
+      "NE-20",
+      "NE-27",
+      "NE-28",
+      "NE-29",
+      "SW-9",
+      "SW-11",
+      "SW-60"
+    ]
+  },
+  "Ulmus americana": {
+    "error": "429 Client Error: Too Many Requests for url: https://trefle.io/api/v1/plants/search?q=Ulmus+americana&token=usr-UU-rkSweU3LcB7m7PQdltwLOipn4U5WzKGSlpFo3meE",
+    "tree_ids": [
+      "NW-59",
+      "SE-2",
+      "SE-3",
+      "SW-90"
+    ]
+  }
+}
