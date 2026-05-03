@@ -43,8 +43,14 @@
   .tree-marker.orphan { background: #b8801a; }
   .tree-label {
     font-size: 11px; font-weight: 600; color: #2a5d2a;
-    background: rgba(255, 255, 255, 0.85); padding: 2px 4px; border-radius: 3px;
-    white-space: nowrap; pointer-events: none; text-shadow: 0 1px 1px rgba(255,255,255,0.8);
+    background: rgba(255, 255, 255, 0.9); padding: 4px 6px; border-radius: 4px;
+    white-space: nowrap; text-shadow: 0 1px 1px rgba(255,255,255,0.8);
+    cursor: pointer; border: 1px solid #d0e8d0;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    transition: all 0.2s ease;
+  }
+  .tree-label:hover {
+    background: rgba(42, 141, 42, 0.1); border-color: #2a8a2a;
   }
 </style>
 </head>
@@ -107,7 +113,7 @@
   }
 
   const markersById = {};
-  const markerLayer = L.layerGroup().addTo(map);
+  const popupMarkerLayer = L.layerGroup(); // Hidden, only for popup binding
   const labelLayer = L.layerGroup().addTo(map);
 
   trees.forEach(t => {
@@ -115,23 +121,31 @@
     // Image y origin is top; Leaflet CRS.Simple y-up by default — flip y.
     const lat = H - t.y;
     const lng = t.x;
-    const cls = t.has_table_data ? 'tree-marker' : 'tree-marker orphan';
-    const icon = L.divIcon({ className: '', html: `<div class="${cls}"></div>`, iconSize: [12, 12], iconAnchor: [6, 6] });
-    const m = L.marker([lat, lng], { icon, title: t.id });
-    m.bindPopup(popupHtml(t));
-    m.addTo(markerLayer);
-    markersById[t.id] = m;
 
-    // Add text label from JSON
+    // Create hidden popup marker
+    const popupMarker = L.marker([lat, lng], {
+      icon: L.divIcon({ className: 'hidden', html: '', iconSize: [0, 0] })
+    }).addTo(popupMarkerLayer);
+    popupMarker.bindPopup(popupHtml(t));
+
+    // Create clickable label
     const labelText = t.trefle_common || t.common_name || t.id;
     const label = L.marker([lat, lng], {
       icon: L.divIcon({
         className: '',
         html: `<div class="tree-label">${labelText}</div>`,
-        iconSize: [80, 16],
+        iconSize: [80, 20],
         iconAnchor: [40, -8]
       })
     }).addTo(labelLayer);
+
+    // Make label clickable to show popup
+    label.on('click', function() {
+      map.flyTo([lat, lng], 0.5, { duration: 0.5 });
+      popupMarker.openPopup();
+    });
+
+    markersById[t.id] = popupMarker;
   });
 
   // Sidebar: stats + list
