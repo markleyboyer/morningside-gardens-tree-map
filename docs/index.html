@@ -72,8 +72,8 @@
 (async function() {
   const trees = await fetch('data/trees.json').then(r => r.json());
 
-  // Image dimensions: 3456 x 2592 (matches assets/map.png)
-  const W = 3456, H = 2592;
+  // Image dimensions: 3456 x 2577 (matches assets/map.png)
+  const W = 3456, H = 2577;
 
   // Use Leaflet in CRS.Simple mode so [y, x] image coords work directly.
   const map = L.map('map', {
