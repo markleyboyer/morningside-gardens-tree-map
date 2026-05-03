@@ -142,8 +142,8 @@
 
   trees.forEach(t => {
     if (t.x == null || t.y == null) return;
-    // Image y origin is top; Leaflet CRS.Simple y-up by default — flip y.
-    const lat = H - t.y;
+    // Direct coordinate mapping
+    const lat = t.y;
     const lng = t.x;
 
     // Create hidden popup marker
