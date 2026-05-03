@@ -151,12 +151,14 @@
 
     // Create clickable label
     const labelText = t.trefle_common || t.common_name || t.id;
+    // Calculate width based on text length (roughly 7px per character + padding)
+    const labelWidth = Math.max(60, Math.min(140, labelText.length * 7 + 12));
     const label = L.marker([lat, lng], {
       icon: L.divIcon({
         className: '',
         html: `<div class="tree-label">${labelText}</div>`,
-        iconSize: [80, 20],
-        iconAnchor: [40, -8]
+        iconSize: [labelWidth, 20],
+        iconAnchor: [labelWidth / 2, -8]
       })
     }).addTo(labelLayer);
 
