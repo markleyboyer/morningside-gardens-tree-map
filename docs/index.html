@@ -21,14 +21,26 @@
     font-size: 13px; border: 1px solid #c8c3b3; border-radius: 4px;
     margin-bottom: 6px; background: white;
   }
-  ul.tree-list { list-style: none; padding: 0; margin: 0; font-size: 13px; }
-  ul.tree-list li {
-    padding: 6px 8px; border-bottom: 1px solid #ece8da;
-    cursor: pointer;
+  .tree-list-table {
+    width: 100%; border-collapse: collapse; font-size: 12px;
   }
-  ul.tree-list li:hover { background: #efece0; }
-  ul.tree-list li .id { font-weight: 600; color: #2a5d2a; }
-  ul.tree-list li .nm { color: #444; }
+  .tree-list-table thead {
+    background: #e8ebe0; position: sticky; top: 0; z-index: 10;
+  }
+  .tree-list-table th {
+    padding: 6px 4px; text-align: left; font-weight: 600; color: #2a5d2a;
+    border-bottom: 1px solid #d0d4c8; font-size: 11px;
+  }
+  .tree-list-table td {
+    padding: 6px 4px; border-bottom: 1px solid #ece8da; vertical-align: top;
+  }
+  .tree-list-table tbody tr:hover {
+    background: #f5f2eb; cursor: pointer;
+  }
+  .tree-list-table .id { font-weight: 600; color: #2a5d2a; width: 50px; }
+  .tree-list-table .name { font-weight: 500; }
+  .tree-list-table .botanical { font-size: 11px; color: #666; font-style: italic; }
+  .tree-list-table .meta { font-size: 11px; color: #777; }
   .leaflet-popup-content { font-size: 13px; line-height: 1.4; min-width: 200px; }
   .leaflet-popup-content .tid { font-weight: 600; color: #2a5d2a; font-size: 14px; }
   .leaflet-popup-content .bot { font-style: italic; color: #555; }
@@ -70,7 +82,16 @@
         <option value="SE">SE</option>
       </select>
     </div>
-    <ul class="tree-list" id="list"></ul>
+    <table class="tree-list-table">
+      <thead>
+        <tr>
+          <th>Quadrant</th>
+          <th>Tree Name</th>
+          <th>Botanical Name / DBH / Planted</th>
+        </tr>
+      </thead>
+      <tbody id="list"></tbody>
+    </table>
   </aside>
 </div>
 <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
@@ -170,9 +191,17 @@
       return true;
     });
     listEl.innerHTML = items.slice(0, 400).map(t => {
-      const marker = t.x != null ? '' : ' <span style="color:#b8801a">(no map pos)</span>';
-      const cn = t.common_name || '<span style="color:#999">unknown</span>';
-      return `<li data-id="${t.id}"><span class="id">${t.id}</span> <span class="nm">${cn}</span>${marker}</li>`;
+      const quad = t.id.split('-')[0];
+      const cn = t.trefle_common || t.common_name || '<span style="color:#999">unknown</span>';
+      const dbh = t.dba_2020 ? `DBH: ${t.dba_2020}"` : '';
+      const planted = t.planted ? `Planted: ${t.planted}` : '';
+      const meta = [t.botanical_name, dbh, planted].filter(Boolean).join(' • ');
+      const noPos = t.x == null ? ' <span style="color:#b8801a">(no map pos)</span>' : '';
+      return `<tr data-id="${t.id}">
+        <td class="id">${quad}</td>
+        <td class="name">${cn}</td>
+        <td><div class="botanical">${meta}</div>${noPos}</td>
+      </tr>`;
     }).join('');
   }
   render();
@@ -180,9 +209,9 @@
   qEl.addEventListener('input', render);
   quadEl.addEventListener('change', render);
   listEl.addEventListener('click', e => {
-    const li = e.target.closest('li');
-    if (!li) return;
-    const id = li.dataset.id;
+    const row = e.target.closest('tr');
+    if (!row) return;
+    const id = row.dataset.id;
     const m = markersById[id];
     if (!m) return;
     map.flyTo(m.getLatLng(), 0.5, { duration: 0.5 });
