@@ -142,9 +142,9 @@
 
   trees.forEach(t => {
     if (t.x == null || t.y == null) return;
-    // Direct coordinate mapping
+    // Coordinate mapping: flip x horizontally
     const lat = t.y;
-    const lng = t.x;
+    const lng = W - t.x;
 
     // Create hidden popup marker
     const popupMarker = L.marker([lat, lng], {
